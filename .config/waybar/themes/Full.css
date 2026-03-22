@@ -5,7 +5,7 @@
 * {
     border: none;
     border-radius: 0px;
-    
+
     font-family: "Google Sans Flex", "JetBrains Mono Nerd Font Propo";
     font-size: 16px;
     font-weight: bold;
@@ -78,7 +78,7 @@ tooltip label {
 #network,
 #clock,
 #custom-notification {
-    background-color: @bg0;
+    background-color: @bg1;
     padding: 0 15px 0 15px;
     margin: 0 0 0 12px;
     border-radius: 50px;
@@ -98,11 +98,12 @@ tooltip label {
 }
 
 #network {
-    color: @color1;
+    color: @color6;
 }
 
 #battery {
-    color: @color6;
+    margin: 0 12px 0 12px;
+    color: @color9;
 }
 
 #battery.charging {
