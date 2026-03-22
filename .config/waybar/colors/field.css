@@ -1,0 +1,29 @@
+/* =========================
+   Wallpaper-Based Waybar Theme
+   ========================= */
+
+/* Core backgrounds (deep sky tones) */
+@define-color bg0 #1a2e42;  /* main bar background */
+@define-color bg1 #162635;  /* module background */
+@define-color bg2 #213e55;  /* hover / alt background */
+@define-color bg3 #2e536e;  /* borders / highlights */
+@define-color bg4 #4f7896;  /* accent background */
+
+/* Accent colors (from grass, clouds, and lighting) */
+@define-color red    #9a6b5a;  /* earthy muted red */
+@define-color orange #c8a57c;  /* warm sunlight */
+@define-color yellow #e7e2c2;  /* cloud highlight */
+@define-color green  #7ea86d;  /* field green */
+@define-color aqua   #78b7c4;  /* soft sky aqua */
+@define-color blue   #5f8fb3;  /* primary sky blue */
+@define-color purple #7a7f9e;  /* distant shadow tone */
+
+/* Foreground (high readability on dark bg) */
+@define-color fg #efe6c8;
+
+/* Neutral greys (muted & cohesive) */
+@define-color grey  #7f93a3;  /* visible neutral grey */
+@define-color grey0 #3f5566;
+@define-color grey1 #6e8797;
+@define-color grey2 #aebec8;
+
