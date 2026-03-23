@@ -26,9 +26,29 @@ get_wallpapers() {
 }
 
 # --- Main Logic ---
+# --- Main Logic ---
 choice=$(get_wallpapers | rofi -dmenu \
+    -theme /home/bixer/.config/rofi/launchers/type-3/style-6.rasi \
     -p "Wallpapers" \
-    -theme-str 'element { orientation: vertical; text-align: center; } element-icon { size: 120px; } listview { columns: 3; lines: 3; }' \
+    -theme-str '
+        window { width: 900px; }
+        listview { columns: 3; lines: 1; spacing: 25px; }
+        element { 
+            orientation: vertical; 
+            padding: 25px; 
+            border-radius: 20px; 
+        }
+        element-icon { 
+            size: 200px; 
+            horizontal-align: 0.5;
+            border-radius: 15px;      /* This rounds the wallpaper image */
+        }
+        element-text { 
+            horizontal-align: 0.5; 
+            vertical-align: 0.5; 
+            margin: 12px 0px 0px 0px; 
+        }
+    ' \
     -i)
 
 [[ -z "$choice" ]] && exit 0

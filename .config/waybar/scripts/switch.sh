@@ -24,37 +24,38 @@ get_themes() {
         # Store: Name | ConfPath | StylePath
         echo "$theme_name|$conf_file|$style_file" >> "$MAP_FILE"
         
-        # Output for Rofi (Simple list format)
-        echo -en "${theme_name^}\0icon\x1fpreferences-desktop-theme\n"
+        # --- ICON CHANGE HERE ---
+        # Using the Nerd Font Palette glyph (󱓟) to match image_767dec.png
+        echo -e "󱓟 ${theme_name^}"
     done
 }
 
 # --- Main Logic ---
 choice=$(get_themes | rofi -dmenu \
     -p "Select Layout" \
+    -theme ~/.config/rofi/launchers/type-1/style-3.rasi \
     -theme-str 'element { padding: 10px; } listview { lines: 6; }' \
     -i)
 
 [[ -z "$choice" ]] && exit 0
 
-choice_lower=$(echo "$choice" | tr '[:upper:]' '[:lower:]')
+# Fix: Strip the icon and leading space (e.g., "󱓟 Full" becomes "Full")
+# Then convert to lowercase to match the filenames in your MAP_FILE
+choice_name=$(echo "$choice" | sed 's/^[^ ]* //')
+choice_lower=$(echo "$choice_name" | tr '[:upper:]' '[:lower:]')
 
-# Extract paths
+# Extract paths using the cleaned name
 SELECTED_CONF=$(grep -i "^$choice_lower|" "$MAP_FILE" | cut -d'|' -f2)
 SELECTED_STYLE=$(grep -i "^$choice_lower|" "$MAP_FILE" | cut -d'|' -f3)
 
-# --- SAVE STATE ---
-# This allows the wallpaper script to know what to reload
-echo "$SELECTED_CONF|$SELECTED_STYLE" > "$STATE_FILE"
-
-# 1. Kill old process
-pkill waybar
-while pgrep -u $USER -x waybar >/dev/null; do sleep 0.1; done
-
-# 2. Launch
-if [[ -f "$SELECTED_CONF" ]]; then
+# --- SAVE STATE & LAUNCH ---
+if [[ -n "$SELECTED_CONF" && -f "$SELECTED_CONF" ]]; then
+    echo "$SELECTED_CONF|$SELECTED_STYLE" > "$STATE_FILE"
+    pkill waybar
+    while pgrep -u $USER -x waybar >/dev/null; do sleep 0.1; done
     setsid waybar -c "$SELECTED_CONF" -s "$SELECTED_STYLE" >/dev/null 2>&1 &
-    notify-send -t 2000 "Waybar" "Switched to $choice"
+    notify-send -t 2000 "Waybar" "Switched to $choice_name"
 else
-    notify-send "Error" "JSONC config not found for $choice"
+    notify-send "Error" "JSONC config not found for $choice_name"
 fi
+
