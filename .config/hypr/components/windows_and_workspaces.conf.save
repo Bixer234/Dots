@@ -53,8 +53,12 @@ windowrule {
     pin = on
 }
 
+
 layerrule = match:namespace swaync-control-center, blur on
 layerrule = match:namespace swaync-control-center, ignore_alpha 0.5
 
-layerrule = match:namespace swaync-notification-window, blur on
-layerrule = match:namespace swaync-notification-window, ignore_alpha 0.5
+# Keep your working blur line
+# layerrule = match:namespace swaync-notification-window, blur on
+
+# Try ignore_alpha with the underscore and a value
+# layerrule = match:namespace swaync-notification-window, ignore_alpha 0.5
