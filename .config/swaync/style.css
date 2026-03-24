@@ -5,7 +5,6 @@
 @import url('../../.cache/wal/colors-waybar.css');
 
 /* ── Pywal color aliases ─────────────────────────────────── */
-/* Adjusted alpha for optimal blur depth while keeping colors vibrant */
 @define-color mpris-album-art-overlay  alpha(@background, 0.75);
 @define-color mpris-button-hover        alpha(@background, 0.60);
 @define-color text                      @color15;
@@ -24,24 +23,19 @@
 * {
     outline: none;
     box-sizing: border-box;
+    background-clip: padding-box;
 }
 
 /* ============================================================
    THE CRITICAL FIX — STRIP ALL BACKGROUNDS FROM ANCESTORS
    ============================================================ */
 
-.notification-row {
-    background: transparent;
-    padding: 0;
-    margin: 0;
-}
-
-.notification-background {
-    background: transparent;
-}
-
-.floating-notifications.background {
-    background: transparent;
+.notification-row,
+.notification-background,
+.floating-notifications.background,
+.notification box,
+.notification widget {
+    background: transparent !important;
 }
 
 /* ============================================================
@@ -49,7 +43,6 @@
    ============================================================ */
 
 .floating-notifications .notification-row .notification-background .notification {
-    /* Lowered to 0.65 to let the compositor blur the background */
     background: alpha(@mycolor, 0.65); 
     border-radius: 14px;
     margin: 6px; 
@@ -71,20 +64,15 @@
     border: 1px solid alpha(@text, 0.05);
 }
 
-.notification box,
-.notification widget,
-.notification .notification-content {
-    border-radius: 12px;
-}
-
-.notification widget:hover {
-    background: alpha(@mycolor, 0.25);
-    border-radius: 8px;
-    transition: background 0.2s ease;
-}
-
 .notification-content {
     padding: 8px 10px;
+    background: transparent;
+}
+
+.notification-content:hover {
+    background: alpha(@text, 0.05);
+    border-radius: 8px;
+    transition: background 0.2s ease;
 }
 
 .notification.low .notification-content label,
@@ -93,8 +81,9 @@
 }
 
 .notification .notification-content image {
-    background-color: transparent;
-    border-radius: 6px;
+    background: transparent;
+    border-radius: 8px;
+    margin: 4px;
 }
 
 .notification.low .notification-content .body,
@@ -106,10 +95,6 @@
 .notification.critical .notification-content {
     background: rgba(200, 50, 40, 0.40);
     border-radius: 12px;
-}
-
-.notification.critical .notification-content image {
-    background-color: transparent;
 }
 
 .notification.critical .notification-content label {
@@ -145,8 +130,8 @@
     background: transparent;
     border-radius: 50%;
     color: alpha(@text, 0.60);
-    min-height: 20px;
-    min-width: 20px;
+    min-height: 24px;
+    min-width: 24px;
     margin: 4px 4px 0 0;
     transition: background 0.2s ease, color 0.2s ease;
 }
@@ -154,7 +139,6 @@
 .close-button:hover {
     background: alpha(@mycolor, 0.40);
     color: @text;
-    border-radius: 50%;
 }
 
 /* ============================================================
@@ -172,7 +156,6 @@
 .widget-title {
     color: alpha(@text, 0.70);
     padding: 14px 20px 6px 20px;
-    margin: 0;
     font-size: 0.78rem;
     font-weight: 600;
     letter-spacing: 0.08em;
@@ -183,28 +166,16 @@
     font-size: 0.85rem;
     font-weight: 500;
     color: @text;
-    text-shadow: none;
     background: alpha(#ff5555, 0.30);
     border: 1px solid alpha(#ff5555, 0.40);
     border-radius: 8px;
     padding: 2px 12px;
     margin-right: 14px;
-    margin-top: 2px;
-    transition: background 0.25s ease, border-color 0.25s ease;
+    transition: background 0.25s ease;
 }
 
 .widget-title > button:hover {
     background: alpha(#ff5555, 0.50);
-    border-color: alpha(#ff5555, 0.70);
-}
-
-.widget-label {
-    margin: 4px 10px;
-}
-
-.widget-label > label {
-    font-size: 0.95rem;
-    color: alpha(@text, 0.80);
 }
 
 /* ============================================================
@@ -214,10 +185,6 @@
     background: transparent;
     padding: 12px 14px;
     margin: 6px 14px;
-}
-
-.widget-mpris .widget-mpris-player * {
-    background: transparent;
 }
 
 .widget-mpris .widget-mpris-album-art {
@@ -231,13 +198,11 @@
     color: alpha(@text, 0.80);
     border-radius: 10px;
     padding: 5px 8px;
-    margin: 2px;
-    transition: background 0.18s ease, color 0.18s ease;
+    transition: background 0.18s ease;
 }
 
 .widget-mpris .widget-mpris-player button:hover {
     background: alpha(@mycolor, 0.30);
-    color: @text;
 }
 
 .widget-mpris .widget-mpris-player .widget-mpris-title {
@@ -262,10 +227,8 @@
     border-radius: 12px;
     min-width: 68px;
     min-height: 44px;
-    padding: 0;
     color: alpha(@text, 0.80);
-    font-size: 16px;
-    transition: background 0.22s ease, color 0.22s ease;
+    transition: background 0.22s ease;
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button:hover {
@@ -273,28 +236,43 @@
     color: @text;
 }
 
-.widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked,
-.widget-buttons-grid > flowbox > flowboxchild > button.toggle.active {
+.widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked {
     background: alpha(@color9, 0.70);
     color: @background;
 }
 
 /* ============================================================
-   SLIDERS
+   SLIDERS — FLAT BAR STYLE (NO WHITE CIRCLES)
    ============================================================ */
 
 scale trough {
-    border-radius: 20px;
+    border-radius: 12px;
     background: alpha(@mycolor, 0.20);
-    border: 1px solid alpha(@mycolor, 0.15);
-    min-height: 4px;
+    border: none;
+    min-height: 12px; 
+    margin: 4px 0;
 }
 
 scale trough highlight {
     background: @mycolor;
-    border-radius: 20px;
-    min-height: 4px;
-    box-shadow: 0 0 8px alpha(@mycolor, 0.50);
+    border-radius: 12px;
+    min-height: 12px;
+}
+
+/* Removes the white circle/thumb */
+scale slider,
+scale thumb {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    min-height: 0;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+scale contents {
+    background: transparent;
 }
 
 .widget-volume, .widget-backlight {
