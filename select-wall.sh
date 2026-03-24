@@ -61,7 +61,6 @@ if [[ ! -f "$WALLPAPER_PATH" ]]; then
     exit 1
 fi
 
-# 2. Apply Wallpaper
 if [[ "$EXTENSION" =~ ^(mp4|mkv|webm)$ ]]; then
     pkill swww-daemon
     pkill mpvpaper
@@ -85,7 +84,6 @@ else
         --transition-step 90
 fi
 
-# 3. Global UI Theming (Matugen & Pywal)
 if [[ ! "$EXTENSION" =~ ^(mp4|mkv|webm)$ ]]; then
     if command -v matugen > /dev/null; then
         # Dominant color extraction to skip interactive prompts
@@ -102,9 +100,6 @@ else
     wal -n -q -i "$HOME/wallpapers/default_fallback.png"
 fi
 
-# --- 4. Refresh Components ---
-
-# 1. Determine which Waybar theme to reload
 STATE_FILE="$HOME/.cache/waybar_current_theme"
 if [[ -f "$STATE_FILE" ]]; then
     # Read the saved paths from the Switcher
@@ -116,7 +111,6 @@ else
     CURRENT_STYLE="$HOME/.config/waybar/themes/default.css"
 fi
 
-# 2. Kill Waybar immediately
 pkill waybar
 while pgrep -u $USER -x waybar >/dev/null; do sleep 0.1; done
 
@@ -128,10 +122,7 @@ if pgrep -x "swaync" > /dev/null; then
     swaync-client -rs
 fi
 
-# 4. Restart Waybar with the NEW colors but the SAME layout
 setsid waybar -c "$CURRENT_CONF" -s "$CURRENT_STYLE" >/dev/null 2>&1 &
-
-# 5. Final Notification
 notify-send -t 2000 "Theme Synced" "Colors updated for: $choice"
 
 exit 0

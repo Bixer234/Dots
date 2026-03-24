@@ -1,13 +1,7 @@
 #!/usr/bin/env bash
 
-# Define the paths to your existing scripts
 WALLPAPER_SCRIPT="$HOME/select-wall.sh"
-# Updated to point directly to switch.sh
 WAYBAR_SCRIPT="$HOME/.config/waybar/scripts/switch.sh"
-
-# Options list
-# 󰸉 = Wallpaper icon
-#  = Waybar/Settings icon
 options="󰸉 Wallpaper\n Waybar Layout"
 
 # Launch Rofi
@@ -22,7 +16,6 @@ case "$chosen" in
         bash "$WALLPAPER_SCRIPT"
         ;;
     " Waybar Layout")
-        # Matches the icon  used in the options variable above
         bash "$WAYBAR_SCRIPT"
         ;;
     *)
