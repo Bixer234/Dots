@@ -15,7 +15,7 @@
     "notification-inline-replies": true,
     "notification-window-width": 350,
     "notification-icon-size": 60,
-    "notification-body-image-height":  180,
+    "notification-body-image-height": 180,
     "notification-body-image-width": 180,
     "timeout": 12,
     "timeout-low": 6,
@@ -42,10 +42,9 @@
             "button-text": "󰆴"
         },
         "label": {
-            "max-lines":1,
+            "max-lines": 1,
             "text": "Notification Center!"
         },
-
         "mpris": {
             "image-size": 80,
             "image-radius": 0
@@ -68,7 +67,6 @@
                     "command": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
                     "type": "toggle"
                 },
-
                 {
                     "label": "",
                     "command": "kitty nmtui"
@@ -78,26 +76,30 @@
                     "command": "blueman-manager"
                 },
                 {
-                    "label":"󰤄",
-                    "command": "swaync-client -d",
-                    "type":"toggle"
+                    "label": "󰖺",
+                    "command": "/home/bixer/.config/hypr/gamemode.sh",
+                    "type": "toggle",
+                    "update-command": "hyprctl getoption animations:enabled | awk 'NR==1{print $2}'",
+                    "interval": 2
                 },
-
+                {
+                    "label": "󰤄",
+                    "command": "swaync-client -d",
+                    "type": "toggle"
+                },
                 {
                     "label": "",
                     "command": "hyprlock"
                 },
                 {
-                    "label":"",
+                    "label": "",
                     "command": "reboot"
                 },
                 {
-                    "label":"",
+                    "label": "",
                     "command": "shutdown now"
                 }
-
             ]
         }
     }
 }
-

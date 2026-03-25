@@ -26,27 +26,40 @@ get_wallpapers() {
 }
 
 # --- Main Logic ---
-# --- Main Logic ---
 choice=$(get_wallpapers | rofi -dmenu \
     -theme /home/bixer/.config/rofi/launchers/type-3/style-6.rasi \
-    -p "Wallpapers" \
+    -p "Select Wallpaper" \
     -theme-str '
-        window { width: 900px; }
-        listview { columns: 3; lines: 1; spacing: 25px; }
+        window { 
+            width: 900px; 
+            height: 500px; 
+            border-radius: 20px;
+        }
+        listview { 
+            columns: 3; 
+            lines: 1;
+            spacing: 25px; 
+            cycle: true;
+            dynamic: true;
+            layout: vertical;
+            fixed-columns: true;
+        }
         element { 
             orientation: vertical; 
-            padding: 25px; 
-            border-radius: 20px; 
+            padding: 30px 15px; 
+            border-radius: 20px;
         }
         element-icon { 
-            size: 200px; 
+            size: 180px; 
             horizontal-align: 0.5;
-            border-radius: 15px;      /* This rounds the wallpaper image */
+            vertical-align: 0.5;
+            border-radius: 15px;
         }
         element-text { 
+            font: "Google Sans Flex 12";
             horizontal-align: 0.5; 
             vertical-align: 0.5; 
-            margin: 12px 0px 0px 0px; 
+            margin: 10px 0px 0px 0px; 
         }
     ' \
     -i)
