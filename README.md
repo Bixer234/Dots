@@ -62,7 +62,7 @@
   <summary>🖼️ Wallpaper & Waybar Switcher</summary>
   <br>
   <div align="center">
-    <p><i>Theme switching logic powered by Matugen and Rofi</i></p>
+    <p><i>Theme switching logic powered by Matugen, Pywal and Rofi</i></p>
     <table width="100%">
       <tr>
         <td width="50%" align="center">
