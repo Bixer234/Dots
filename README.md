@@ -58,6 +58,36 @@
   </div>
 </details>
 
+<details>
+  <summary>🖼️ Wallpaper & Waybar Switcher</summary>
+  <br>
+  <div align="center">
+    <p><i>Theme switching logic powered by Matugen and Rofi</i></p>
+    <table>
+      <tr>
+        <td>
+          <img src="assets/W1.png" width="100%" />
+          <p align="center"><sub><b>Nordic Forest</b></sub></p>
+        </td>
+        <td>
+          <img src="assets/W2.png" width="100%" />
+          <p align="center"><sub><b>Cyberpunk Night</b></sub></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="assets/W3.png" width="100%" />
+          <p align="center"><sub><b>Minimalist Day</b></sub></p>
+        </td>
+        <td>
+          <img src="assets/W4.png" width="100%" />
+          <p align="center"><sub><b>Deep Ocean</b></sub></p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</details>
+
 ---
 
 ## 📝 Credits
