@@ -19,3 +19,8 @@
     <td><img src="assets/image-12.png" width="100%" /></td>
   </tr>
 </table>
+
+## 📝 Credits
+
+* **[elifouts](https://github.com/elifouts)** - For Swaync and Waybar.
+* **[Typing SVG](https://github.com/DenverCoder1/readme-typing-svg)** - For the animated header.
