@@ -27,9 +27,21 @@ get_wallpapers() {
 
 # --- Main Logic ---
 choice=$(get_wallpapers | rofi -dmenu \
-    -theme /home/bixer/.config/rofi/launchers/type-3/style-6.rasi \
+    -theme /home/bixer/.config/rofi/launchers/type-1/style-3.rasi \
     -p "Select Wallpaper" \
     -theme-str '
+        /* ADD THIS SECTION BELOW */
+        inputbar {
+            font: "Google Sans Flex 12";
+        }
+        prompt {
+            font: "Google Sans Flex 12";
+        }
+        entry {
+            font: "Google Sans Flex 12";
+            placeholder: "Search...";
+            placeholder-color: @fg; /* Optional: ensures visibility */
+        }
         window { 
             width: 900px; 
             height: 500px; 

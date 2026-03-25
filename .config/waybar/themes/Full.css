@@ -120,7 +120,7 @@ tooltip label {
 #custom-keyboard {
     /* The core of the animation */
     /* 0.4s is a good middle ground for 'smooth' */
-    transition: all 150ms cubic-bezier(.55, 0, .28, 1);
+    transition: all 300ms cubic-bezier(.55, 0, .28, 1);
     padding: 0 10px;
 }
 
@@ -128,8 +128,6 @@ tooltip label {
     color: @color2;
     /* Square state */
     border-radius: 4px; 
-    /* Adding a subtle glow using your accent color */
-    box-shadow: 0 0 8px @color2;
 }
 
 #custom-keyboard.disabled {
