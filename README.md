@@ -63,25 +63,25 @@
   <br>
   <div align="center">
     <p><i>Theme switching logic powered by Matugen and Rofi</i></p>
-    <table>
+    <table width="100%">
       <tr>
-        <td>
+        <td width="50%" align="center">
           <img src="assets/W1.png" width="100%" />
-          <p align="center"><sub><b>Nordic Forest</b></sub></p>
+          <p align="center"><sub><b>Wallpapers</b></sub></p>
         </td>
-        <td>
+        <td width="50%" align="center">
           <img src="assets/W2.png" width="100%" />
-          <p align="center"><sub><b>Cyberpunk Night</b></sub></p>
+          <p align="center"><sub><b>Select Wallpaper</b></sub></p>
         </td>
       </tr>
       <tr>
-        <td>
+        <td width="50%" align="center">
           <img src="assets/W3.png" width="100%" />
-          <p align="center"><sub><b>Minimalist Day</b></sub></p>
+          <p align="center"><sub><b>Waybar Layout</b></sub></p>
         </td>
-        <td>
+        <td width="50%" align="center">
           <img src="assets/W4.png" width="100%" />
-          <p align="center"><sub><b>Deep Ocean</b></sub></p>
+          <p align="center"><sub><b>Select Waybar Layout</b></sub></p>
         </td>
       </tr>
     </table>
