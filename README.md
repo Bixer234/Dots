@@ -11,6 +11,21 @@
   </tr>
 </table>
 
+<details>
+  <summary>🚥 Waybar layouts</summary>
+  <br>
+  <table>
+    <tr>
+      <td><img src="assets/Waybar-1.png" width="100%" /></td>
+      <td><img src="assets/Waybar-2.png" width="100%" /></td>
+    </tr>
+    <tr>
+      <td><img src="assets/Waybar-3.png" width="100%" /></td>
+      <td><img src="assets/Waybar-4.png" width="100%" /></td>
+    </tr>
+  </table>
+</details>
+
 ## 📝 Credits
 
 * [![saneaspect](https://img.shields.io/badge/saneaspect-Profile-black?style=flat-square&logo=github)](https://github.com/saneaspect)
