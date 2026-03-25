@@ -83,6 +83,11 @@
                     "interval": 2
                 },
                 {
+                    "label": "",
+                    "command": "/home/bixer/.config/hypr/scripts/auto_rotate.sh",
+                    "type": "toggle"
+                },
+                {
                     "label": "󰤄",
                     "command": "swaync-client -d",
                     "type": "toggle"

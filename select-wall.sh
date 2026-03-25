@@ -97,29 +97,34 @@ else
         --transition-step 90
 fi
 
+# --- Color Extraction & Theming ---
 if [[ ! "$EXTENSION" =~ ^(mp4|mkv|webm)$ ]]; then
     if command -v matugen > /dev/null; then
-        # Dominant color extraction to skip interactive prompts
         COLOR_SEED=$(magick "$WALLPAPER_PATH" -resize 1x1 txt:- | grep -oE '#[0-9a-fA-F]{6}' | head -n 1)
         matugen color hex "$COLOR_SEED" -m dark -t scheme-content
     fi
-    # -n prevents Pywal from automatically restarting Waybar
     wal -n -q -i "$WALLPAPER_PATH"
 else
-    # Fallback for video wallpapers
     if command -v matugen > /dev/null; then
         matugen color hex "#3584e4" -m dark -t scheme-content
     fi
     wal -n -q -i "$HOME/wallpapers/default_fallback.png"
 fi
 
+# --- Squeekboard Refresh ---
+# Squeekboard needs a restart to pick up the new GTK/Pywal colors properly
+if pgrep -x "squeekboard" > /dev/null; then
+    pkill squeekboard
+    # Restart it in the background
+    squeekboard & 
+fi
+
+# --- Waybar & UI Refresh ---
 STATE_FILE="$HOME/.cache/waybar_current_theme"
 if [[ -f "$STATE_FILE" ]]; then
-    # Read the saved paths from the Switcher
     CURRENT_CONF=$(cut -d'|' -f1 "$STATE_FILE")
     CURRENT_STYLE=$(cut -d'|' -f2 "$STATE_FILE")
 else
-    # Fallback if the switcher hasn't been used yet
     CURRENT_CONF="$HOME/.config/waybar/themes/default.jsonc"
     CURRENT_STYLE="$HOME/.config/waybar/themes/default.css"
 fi
@@ -127,7 +132,6 @@ fi
 pkill waybar
 while pgrep -u $USER -x waybar >/dev/null; do sleep 0.1; done
 
-# 3. Run background updates (Pywalfox, SwayNC, etc.)
 [[ -x $(command -v pywalfox) ]] && pywalfox update &
 
 if pgrep -x "swaync" > /dev/null; then
@@ -136,6 +140,6 @@ if pgrep -x "swaync" > /dev/null; then
 fi
 
 setsid waybar -c "$CURRENT_CONF" -s "$CURRENT_STYLE" >/dev/null 2>&1 &
-notify-send -t 2000 "Theme Synced" "Colors updated for: $choice"
+notify-send -t 2000 "Theme Synced" "Colors & Squeekboard updated for: $choice"
 
 exit 0

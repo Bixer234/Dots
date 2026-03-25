@@ -12,6 +12,7 @@
         "tray"
     ],
     "modules-right": [
+        "custom/keyboard",
         "pulseaudio",
         "network",
         "battery",
@@ -21,6 +22,15 @@
         "interval": 60,
         "format": "{:%H:%M}",
         "max-length": 25,
+        "tooltip": false
+    },
+"custom/keyboard": {
+        "format": "{}",
+        "return-type": "json",
+        "exec": "/home/bixer/toggle_squeekboard.sh status",
+        "on-click": "/home/bixer/toggle_squeekboard.sh",
+        "signal": 1,
+        "interval": 5,
         "tooltip": false
     },
     "hyprland/workspaces": {

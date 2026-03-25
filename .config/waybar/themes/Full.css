@@ -73,6 +73,7 @@ tooltip label {
     transition: all 0.3s ease-in-out;
 }
 
+#custom-keyboard,
 #battery,
 #pulseaudio,
 #network,
@@ -108,4 +109,32 @@ tooltip label {
 
 #battery.charging {
     color: @color7;
+}
+
+#custom-keyboard {
+    padding: 0 10px;
+    color: @foreground;
+    /* Your default text color */
+}
+
+#custom-keyboard {
+    /* The core of the animation */
+    /* 0.4s is a good middle ground for 'smooth' */
+    transition: all 150ms cubic-bezier(.55, 0, .28, 1);
+    padding: 0 10px;
+}
+
+#custom-keyboard.enabled {
+    color: @color2;
+    /* Square state */
+    border-radius: 4px; 
+    /* Adding a subtle glow using your accent color */
+    box-shadow: 0 0 8px @color2;
+}
+
+#custom-keyboard.disabled {
+    color: @color1;
+    /* Circle/Capsule state */
+    /* High value ensures it stays round even if padding changes */
+    border-radius: 20px; 
 }

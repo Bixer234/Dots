@@ -95,13 +95,13 @@ tooltip {
 
 }
 #network{
-    padding: 0px 8px;
+    padding: 0px 8px 0px 2px;
     transition: all .3s ease;
     color:@color7;
 
 }
 #battery{
-    padding: 0px 7px;
+    padding: 0px 5px;
     transition: all .3s ease;
     color:@color7;
 
@@ -164,4 +164,16 @@ tooltip {
 #tray menu separator {
     padding: 0px 5px;
     transition: all .3s ease; 
+}
+#custom-keyboard.enabled {
+    color: @color9;
+    /* Square state */
+    margin: 0px 10px;
+}
+
+#custom-keyboard.disabled {
+    /* Circle/Capsule state */
+    /* High value ensures it stays round even if padding changes */
+    border-radius: 20px; 
+    margin: 0px 10px;
 }

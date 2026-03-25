@@ -74,12 +74,18 @@ tooltip {
     letter-spacing: 0.5px;
 }
 
-
-
 #battery.warning {
     background-color: @yellow;
 }
 
 #battery.critical {
     background-color: @red;
+}
+
+#custom-keyboard.enabled {
+    color: @color6;
+}
+
+#custom-keyboard.disabled {
+    border-radius: 20px;
 }
