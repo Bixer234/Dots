@@ -11,6 +11,8 @@
   </tr>
 </table>
 
+# My Applications
+
 <details>
   <summary>🚥 Waybar layouts</summary>
   <br>
@@ -35,8 +37,25 @@
         <td style="padding: 0px 5px;"><img src="assets/Swaync-4.png" width="220px;" alt="Swaync Layout 4" /></td>
       </tr>
     </table>
-    </div>
+  </div>
   <br>
+</details>
+
+<details>
+  <summary>🔒 Hyprlock</summary>
+  <br>
+  <div align="center">
+    <table>
+      <tr>
+        <td><img src="assets/hyprlock.png" width="100%" alt="Hyprlock 1" /></td>
+        <td><img src="assets/hyprlock-1.png" width="100%" alt="Hyprlock 2" /></td>
+      </tr>
+      <tr>
+        <td><img src="assets/hyprlock-2.png" width="100%" alt="Hyprlock 3" /></td>
+        <td><img src="assets/hyprlock-3.png" width="100%" alt="Hyprlock 4" /></td>
+      </tr>
+    </table>
+  </div>
 </details>
 
 ---
