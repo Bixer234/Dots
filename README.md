@@ -14,16 +14,15 @@
 <details>
   <summary>🚥 Waybar layouts</summary>
   <br>
-  <table>
-    <tr>
-      <td><img src="assets/Waybar-1.png" width="100%" /></td>
-      <td><img src="assets/Waybar-2.png" width="100%" /></td>
-    </tr>
-    <tr>
-      <td><img src="assets/Waybar-3.png" width="100%" /></td>
-      <td><img src="assets/Waybar-4.png" width="100%" /></td>
-    </tr>
-  </table>
+  <p align="center">
+    <img src="assets/Waybar-1.png" width="90%" alt="Layout 1" />
+    <br><br>
+    <img src="assets/Waybar-2.png" width="90%" alt="Layout 2" />
+    <br><br>
+    <img src="assets/Waybar-3.png" width="90%" alt="Layout 3" />
+    <br><br>
+    <img src="assets/Waybar-4.png" width="90%" alt="Layout 4" />
+  </p>
 </details>
 
 ## 📝 Credits
