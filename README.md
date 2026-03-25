@@ -1,3 +1,3 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Bixer's+Dotfiles)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Bixer's+Dotfiles;Second+line+of+text)](https://git.io/typing-svg)
 
-My Dotfiles
+![alt text](image.png)
