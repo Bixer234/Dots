@@ -1,0 +1,137 @@
+/**
+ * Modified for Pywal Integration
+ * Pattern matched to user preferences
+ **/
+
+/*****----- Configuration -----*****/
+configuration {
+    modi:                        "drun";
+    show-icons:                  true;
+    display-drun:                "";
+    drun-display-format:         "{name}";
+}
+
+/*****----- Global Properties -----*****/
+/* Import pywal colors */
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+@import "shared/fonts.rasi"
+
+* {
+    /* Force pure white text for better readability on dark themes */
+    foreground:                  #FFFFFF; 
+
+    /* Mapping Pywal variables to the theme's expected names */
+    background-alt:              @selected-active-background;
+    selected:                    @selected-normal-background;
+    active:                      @active-background;
+    urgent:                      @urgent-background;
+}
+
+/*****----- Main Window -----*****/
+window {
+    width:                        1100px;
+    height:                       500px; /* Increased slightly to ensure content visibility */
+    transparency:                 "real";
+    location:                     center;
+    anchor:                       center;
+    fullscreen:                   false;
+    enabled:                      true;
+    border-radius:                25px;
+    background-color:             @background;
+    cursor:                       "default";
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:                     true;
+    spacing:                     20px;
+    padding:                     40px;
+    background-color:            transparent;
+    /* Ensure listview is explicitly included */
+    children:                    [ "inputbar", "listview" ];
+}
+
+/*****----- Inputbar -----*****/
+inputbar {
+    enabled:                     true;
+    spacing:                     15px;
+    margin:                      0px 0px 20px 0px;
+    padding:                     12px 25px;
+    border-radius:               50px;
+    background-color:            @background-alt;
+    text-color:                  @foreground;
+    children:                    [ "prompt", "entry" ];
+}
+
+prompt {
+    enabled:                     true;
+    background-color:            transparent;
+    text-color:                  inherit;
+}
+
+entry {
+    enabled:                     true;
+    background-color:            transparent;
+    text-color:                  inherit;
+    placeholder:                 "Search wallpapers...";
+    placeholder-color:           inherit;
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled:                     true;
+    columns:                     4;
+    lines:                       1;
+    spacing:                     25px;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+
+/*****----- Elements -----*****/
+element {
+    enabled:                     true;
+    orientation:                 vertical;
+    spacing:                     15px;
+    padding:                     20px 10px;
+    border-radius:               20px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+
+element selected.normal {
+    background-color:            @background-alt;
+    border:                      3px solid;
+    border-color:                @selected;
+    text-color:                  @foreground;
+}
+
+element-icon {
+    background-color:            transparent;
+    size:                        150px; /* Adjusted to fit the window height */
+    horizontal-align:            0.5;
+    border-radius:               15px;
+}
+
+element-text {
+    background-color:            transparent;
+    text-color:                  inherit;
+    horizontal-align:            0.5;
+    vertical-align:              0.5;
+}
+
+/*****----- Message -----*****/
+error-message {
+    padding:                     20px;
+    border:                      2px solid;
+    border-radius:               20px;
+    border-color:                @selected;
+    background-color:            @background;
+    text-color:                  @foreground;
+}

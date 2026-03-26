@@ -1,0 +1,15 @@
+{
+  "config": {
+    "scheduled_time": "none",
+    "scheduled_action": "none",
+    "last_checked_timestamp": 0,
+    "middle_click_action": "none"
+  },
+  "tasks": [
+    {
+      "priority": 2,
+      "status": 1,
+      "description": "Fix these colors"
+    }
+  ]
+}

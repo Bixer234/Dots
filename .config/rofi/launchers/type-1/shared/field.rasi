@@ -1,0 +1,26 @@
+/* =========================
+   Wallpaper Color Scheme
+   ========================= */
+
+* {
+    /* backgrounds (sky tones) */
+    background:     #1a2e42;
+    background-alt: #162635;
+
+    /* foreground text */
+    foreground:     #e6edf3;
+
+    /* selection / states */
+    selected:       #5f8fb3;
+    active:         #7ea86d;
+    urgent:         #c8a57c;
+
+    /* borders */
+    border:         #2e536e;
+
+    /* greys */
+    grey:  #5a6f7f;
+    grey0: #3f5566;
+    grey1: #6e8797;
+    grey2: #aebec8;
+}
