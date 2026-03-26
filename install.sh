@@ -21,7 +21,7 @@ if ! command -v gum &> /dev/null; then
     sudo pacman -S --needed --noconfirm gum
 fi
 
-gum style --border double --margin "1" --padding "1" --foreground 212 "Bixer's Ultimate Hyprland Installer"
+gum style --border double --margin "1" --padding "1" --foreground 212 "Bixer's Ultimate Hyprland Installer (Stow Edition)"
 
 # --- 4. Bootstrap Yay ---
 if ! command -v yay &> /dev/null; then
@@ -38,27 +38,17 @@ fi
 
 # --- 5. Install Dependencies ---
 PKGS=(
-    # Shell & Terminal
-    zsh zsh-completions
-    # Core Desktop & Compositor
-    hyprland waybar rofi rofi-emoji swaync 
-    hyprlock hypridle hyprshot polkit-gnome
-    grimblast-git slurp jq
-    # Wallpaper & Theming
+    stow                                  # <--- Essential for symlinking
+    zsh zsh-completions hyprland waybar rofi rofi-emoji swaync 
+    hyprlock hypridle hyprshot polkit-gnome grimblast-git slurp jq
     swww-git awww mpvpaper matugen-bin adw-gtk-theme nwg-look
     python-pywal16 imagemagick xdg-desktop-portal-hyprland
-    # System & Hardware
     squeekboard iio-sensor-proxy iio-hyprland-git 
     pavucontrol blueman brightnessctl preload power-profiles-daemon
-    # Clipboard & Screen Recording
     cliphist wl-clipboard wl-clip-persist nwg-clipman gpu-screen-recorder-ui
-    # OCR & Image Processing
     tesseract tesseract-data-eng python-pillow python-pytesseract
-    # Media & Downloads
     yt-dlp gallery-dl python-pipx gum system-age
-    # File Management
     nautilus gvfs gvfs-mtp gvfs-smb ffmpegthumbnailer
-    # Fonts
     ttf-google-sans ttf-google-sans-flex
     ttf-jetbrains-mono-nerd maplemono-ttf maple-mono-nf-cn-unhinted
 )
@@ -66,7 +56,7 @@ PKGS=(
 gum spin --spinner dot --title "Installing system packages..." -- yay -S --needed --noconfirm "${PKGS[@]}"
 
 # --- 6. OCR4Linux Installation ---
-if gum confirm "Install OCR4Linux (Screen-to-Clipboard OCR)?"; then
+if gum confirm "Install OCR4Linux?"; then
     gum spin --spinner triangle --title "Cloning and setting up OCR4Linux..." -- bash -c "
         git clone https://github.com/moheladwy/OCR4Linux.git /tmp/OCR4Linux
         cd /tmp/OCR4Linux
@@ -74,40 +64,48 @@ if gum confirm "Install OCR4Linux (Screen-to-Clipboard OCR)?"; then
         ./setup.sh
     "
     chmod +x "$HOME/.config/OCR4Linux/OCR4Linux.sh"
-    echo -e "${GREEN}✔ OCR4Linux installed and permissions set.${NC}"
 fi
 
-# --- 7. Applying Configs ---
-echo -e "${YELLOW}Deploying configuration files...${NC}"
-mkdir -p "$HOME/.config"
+# --- 7. GNU Stow Symlinking ---
+echo -e "${YELLOW}Linking Dotfiles via GNU Stow...${NC}"
 
-CONFIGS=("hypr" "waybar" "rofi" "squeekboard" "swaync" "hyprlock" "hypridle")
+# We assume your dotfiles directory is organized by 'package' folders.
+# Example: ~/dotfiles/hypr/ contains .config/hypr/land.conf
+# Or: ~/dotfiles/zsh/ contains .zshrc
 
-for folder in "${CONFIGS[@]}"; do
-    if [ -d "$DOTFILES_DIR/$folder" ]; then
-        [ -d "$HOME/.config/$folder" ] && mv "$HOME/.config/$folder" "$HOME/.config/${folder}_bak_$(date +%H%M%S)"
-        cp -r "$DOTFILES_DIR/$folder" "$HOME/.config/$folder"
-        echo -e "${GREEN}✔ Installed $folder${NC}"
+for dir in */; do
+    dir=${dir%/} # Remove trailing slash
+    
+    # Skip non-config folders
+    [[ "$dir" == "OCR4Linux" ]] && continue
+    [[ "$dir" == "scripts" ]] && continue # Add any other folder to skip here
+
+    echo -e "${BLUE}Stowing $dir...${NC}"
+    
+    # If a real directory/file exists where we want to link, back it up
+    # Stow will fail if a real file is in the way.
+    if [ -e "$HOME/.$dir" ] || [ -e "$HOME/.config/$dir" ]; then
+        echo -e "${YELLOW}Existing config found for $dir. Moving to backup...${NC}"
+        mv "$HOME/.$dir" "$HOME/.${dir}_bak" 2>/dev/null
+        mv "$HOME/.config/$dir" "$HOME/.config/${dir}_bak" 2>/dev/null
     fi
+
+    stow -v -R -t "$HOME" "$dir"
 done
 
-[ -f "$DOTFILES_DIR/.zshrc" ] && cp "$DOTFILES_DIR/.zshrc" "$HOME/.zshrc"
-
 # --- 8. Global Theme Integration ---
-echo -e "${YELLOW}Integrating Rofi themes into system directory...${NC}"
+echo -e "${YELLOW}Integrating Rofi themes...${NC}"
 sudo mkdir -p /usr/share/rofi/themes
-if [ -f "$HOME/.config/rofi/launchers/type-1/style-3.rasi" ]; then
-    sudo cp "$HOME/.config/rofi/launchers/type-1/style-3.rasi" /usr/share/rofi/themes/
+ROFI_THEME="$HOME/.config/rofi/launchers/type-1/style-3.rasi"
+if [ -f "$ROFI_THEME" ]; then
+    sudo cp "$ROFI_THEME" /usr/share/rofi/themes/
     sudo cp -r "$HOME/.config/rofi/launchers/type-1/shared" /usr/share/rofi/themes/
-    echo -e "${GREEN}✔ Rofi themes moved to /usr/share/rofi/themes/${NC}"
 fi
 
-# --- 9. Changing Default Shell ---
+# --- 9. Default Shell ---
 ZSH_PATH=$(which zsh)
-if [ "$SHELL" != "$ZSH_PATH" ]; then
-    if gum confirm "Change default shell to ZSH?"; then
-        chsh -s "$ZSH_PATH"
-    fi
+if [ "$SHELL" != "$ZSH_PATH" ] && gum confirm "Change default shell to ZSH?"; then
+    chsh -s "$ZSH_PATH"
 fi
 
 # --- 10. Essential Startup Injections ---
@@ -128,20 +126,10 @@ find "$HOME/.config/waybar/themes" -name "*.css" -exec sed -i 's|~/.config/wayba
 
 # --- 12. Final System Tweaks ---
 fc-cache -fv > /dev/null 2>&1
-
-echo -e "${YELLOW}Enabling system services...${NC}"
-sudo systemctl enable --now bluetooth.service
-sudo systemctl enable --now iio-sensor-proxy.service
-sudo systemctl enable --now preload.service
-sudo systemctl enable --now power-profiles-daemon.service
-
+sudo systemctl enable --now bluetooth.service iio-sensor-proxy.service preload.service power-profiles-daemon.service
 sudo usermod -aG video,input,bluetooth "$USER"
 
-# Initial Pywal
-if [ -d "$HOME/wallpapers" ]; then
-    wal -i "$HOME/wallpapers/" -n -q 2>/dev/null
-fi
-
+[ -d "$HOME/wallpapers" ] && wal -i "$HOME/wallpapers/" -n -q 2>/dev/null
 rm -rf /tmp/yay /tmp/OCR4Linux
 
 # --- 13. Finish ---
