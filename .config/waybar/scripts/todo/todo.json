@@ -8,7 +8,7 @@
   "tasks": [
     {
       "priority": 1,
-      "status": 0,
+      "status": 1,
       "description": "Make a working install script for your dotfiles"
     }
   ]
