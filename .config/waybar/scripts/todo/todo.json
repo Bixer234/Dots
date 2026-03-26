@@ -7,9 +7,9 @@
   },
   "tasks": [
     {
-      "priority": 4,
+      "priority": 1,
       "status": 1,
-      "description": "meh"
+      "description": "Fix to-do list module colors"
     }
   ]
 }
