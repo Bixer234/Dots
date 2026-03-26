@@ -4,6 +4,7 @@
 
 /*****----- Configuration -----*****/
 configuration {
+    font: "Google Sans Flex 12";
     modi:                        "drun";
     show-icons:                  true;
     display-drun:                "";

@@ -2,7 +2,7 @@
 
 WALLPAPER_SCRIPT="$HOME/select-wall.sh"
 WAYBAR_SCRIPT="$HOME/.config/waybar/scripts/switch.sh"
-options="󰸉 Wallpaper\n Waybar Layout"
+options="󰸉  Wallpaper\n  Waybar Layout"
 
 # Launch Rofi
 chosen="$(echo -e "$options" | rofi -dmenu \
@@ -12,10 +12,10 @@ chosen="$(echo -e "$options" | rofi -dmenu \
 
 # Logic for selection
 case "$chosen" in
-    "󰸉 Wallpaper")
+    "󰸉  Wallpaper")
         bash "$WALLPAPER_SCRIPT"
         ;;
-    " Waybar Layout")
+    "  Waybar Layout")
         bash "$WAYBAR_SCRIPT"
         ;;
     *)

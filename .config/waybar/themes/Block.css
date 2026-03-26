@@ -44,8 +44,8 @@ tooltip label {
 }
 
 #workspaces button.active {
-    padding: 2px 0 0 0px;
-    margin: 1 0 0 0px;
+    padding: 0px 0 0 0px;
+    margin: 0 0 0 0px;
     background-color: @color6;
     color: @bg0;
     min-width: 30px;

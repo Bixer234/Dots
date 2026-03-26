@@ -19,7 +19,7 @@ if ! command -v gum &> /dev/null; then
     sudo pacman -S --needed --noconfirm gum git base-devel
 fi
 
-gum style --border double --margin "1" --padding "1" --foreground 212 "Bixer's Direct-Copy Installer"
+gum style --border double --margin "1" --padding "1" --foreground 212 "Bixer's Dotfiles Installer"
 
 # --- 4. Bootstrap Yay ---
 if ! command -v yay &> /dev/null; then
@@ -61,27 +61,27 @@ if gum confirm "This will DELETE existing config folders to replace them. Procee
 fi
 
 # --- 7. Direct Copy Operations ---
-echo -e "${YELLOW}Copying dotfiles to system...${NC}"
+echo -e "${YELLOW}Copying Dotfiles to system...${NC}"
 
 # Root Home scripts/folders
-cp ~/dotfiles/appmenu.sh ~
-cp ~/dotfiles/select-wall.sh ~
-cp ~/dotfiles/toggle_squeekboard.sh ~
-cp -r ~/dotfiles/wallpapers ~
+cp ~/Dots/appmenu.sh ~
+cp ~/Dots/select-wall.sh ~
+cp ~/Dots/toggle_squeekboard.sh ~
+cp -r ~/Dots/wallpapers ~
 
 # Make scripts executable
 chmod +x ~/appmenu.sh ~/select-wall.sh ~/toggle_squeekboard.sh
 
 # Config Folders
-cp -r ~/dotfiles/.config/fastfetch ~/.config/
-cp -r ~/dotfiles/.config/gtk-3.0 ~/.config/
-cp -r ~/dotfiles/.config/gtk-4.0 ~/.config/
-cp -r ~/dotfiles/.config/hypr ~/.config/
-cp -r ~/dotfiles/.config/kitty ~/.config/
-cp -r ~/dotfiles/.config/matugen ~/.config/
-cp -r ~/dotfiles/.config/rofi ~/.config/
-cp -r ~/dotfiles/.config/swaync ~/.config/
-cp -r ~/dotfiles/.config/waybar ~/.config/
+cp -r ~/Dots/.config/fastfetch ~/.config/
+cp -r ~/Dots/.config/gtk-3.0 ~/.config/
+cp -r ~/Dots/.config/gtk-4.0 ~/.config/
+cp -r ~/Dots/.config/hypr ~/.config/
+cp -r ~/Dots/.config/kitty ~/.config/
+cp -r ~/Dots/.config/matugen ~/.config/
+cp -r ~/Dots/.config/rofi ~/.config/
+cp -r ~/Dots/.config/swaync ~/.config/
+cp -r ~/Dots/.config/waybar ~/.config/
 
 echo -e "${GREEN}✔ Files copied successfully!${NC}"
 
@@ -98,15 +98,42 @@ if [ -d "$HOME/.config/rofi/launchers/type-1/shared" ]; then
     sudo cp "$HOME/.config/rofi/launchers/type-1/style-3.rasi" /usr/share/rofi/themes/
 fi
 
-# --- 10. Enable Services ---
+# --- 10. Enable Services & Set Shell ---
 sudo systemctl enable --now bluetooth.service iio-sensor-proxy.service preload.service power-profiles-daemon.service
 sudo usermod -aG video,input,bluetooth "$USER"
+sudo chsh -s $(which zsh) $USER
 
-# --- 11. CSS Path Fixes ---
+# --- 11. Pywal Hyprland Template ---
+echo -e "${YELLOW}Creating Pywal Hyprland template...${NC}"
+mkdir -p "$HOME/.config/wal/templates"
+cat <<EOF > "$HOME/.config/wal/templates/colors-hyprland.conf"
+\$foreground = rgb({foreground.strip})
+\$background = rgb({background.strip})
+\$cursor = rgb({cursor.strip})
+
+\$color0 = rgb({color0.strip})
+\$color1 = rgb({color1.strip})
+\$color2 = rgb({color2.strip})
+\$color3 = rgb({color3.strip})
+\$color4 = rgb({color4.strip})
+\$color5 = rgb({color5.strip})
+\$color6 = rgb({color6.strip})
+\$color7 = rgb({color7.strip})
+\$color8 = rgb({color8.strip})
+\$color9 = rgb({color9.strip})
+\$color10 = rgb({color10.strip})
+\$color11 = rgb({color11.strip})
+\$color12 = rgb({color12.strip})
+\$color13 = rgb({color13.strip})
+\$color14 = rgb({color14.strip})
+\$color15 = rgb({color15.strip})
+EOF
+
+# --- 12. CSS Path Fixes ---
 find "$HOME/.config/waybar" -name "*.css" -exec sed -i 's|~/.cache/wal/|../../../.cache/wal/|g' {} +
 [ -f "$HOME/.config/swaync/style.css" ] && sed -i 's|~/.cache/wal/|../../.cache/wal/|g' "$HOME/.config/swaync/style.css"
 
-# --- 12. Initial Theme & Reload ---
+# --- 13. Initial Theme & Reload ---
 if [ -f "$HOME/wallpapers/Sky.jpg" ]; then
     awww img "$HOME/wallpapers/Sky.jpg"
     wal -i "$HOME/wallpapers/Sky.jpg"
@@ -115,7 +142,7 @@ fi
 hyprctl reload
 killall waybar && waybar &
 
-# --- 13. Finish ---
+# --- 14. Finish ---
 gum style --foreground 212 --border double --margin 1 --padding 1 "Installation Complete!"
 
 if gum confirm "Reboot now?"; then
