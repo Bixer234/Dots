@@ -92,7 +92,7 @@
 
 ## 📝 Credits
 
-* **[elifouts](https://www.youtube.com/@saneAspect)**  — For Waybar.
+* **[saneAspect](https://www.youtube.com/@saneAspect)**  — For Waybar.
 * **[elifouts](https://github.com/elifouts)** — For Swaync, Waybar, and inspiration for the GitHub repo.
 * **[elifouts](https://github.com/Harsh-bin)** - For the todo-list module
 * **[Typing SVG](https://github.com/DenverCoder1/readme-typing-svg)** — For the animated header.
