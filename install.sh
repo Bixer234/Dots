@@ -42,7 +42,7 @@ PKGS=(
     tesseract tesseract-data-eng python-pillow python-pytesseract
     yt-dlp gallery-dl python-pipx 
     nautilus gvfs gvfs-mtp gvfs-smb ffmpegthumbnailer
-    ttf-google-sans ttf-google-sans-flex ttf-jetbrains-mono-nerd 
+    ttf-jetbrains-mono-nerd 
     maplemono-ttf maple-mono-nf-cn-unhinted
 )
 
@@ -68,6 +68,10 @@ cp ~/Dots/app-menu.sh ~
 cp ~/Dots/select-wall.sh ~
 cp ~/Dots/toggle_squeekboard.sh ~
 cp -r ~/Dots/wallpapers ~
+
+# Copy Google Sans Flex Variable Font
+mkdir -p ~/.local/share/fonts
+cp ~/Dots/Google_Sans_Flex/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf ~/.local/share/fonts/
 
 # Make scripts executable
 chmod +x ~/app-menu.sh ~/select-wall.sh ~/toggle_squeekboard.sh

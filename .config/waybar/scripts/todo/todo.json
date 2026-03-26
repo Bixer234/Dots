@@ -18,6 +18,11 @@
     },
     {
       "priority": 3,
+      "status": 0,
+      "description": "Update README.md"
+    },
+    {
+      "priority": 4,
       "status": 1,
       "description": "Make a working install script for your dotfiles"
     }
