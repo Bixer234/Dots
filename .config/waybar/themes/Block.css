@@ -28,7 +28,7 @@ tooltip label {
 #workspaces {
     border-radius: 5px;
     padding: 0px 0 0 0px;
-    margin: 3 5 0 5px;
+    margin: 0 5 0 5px;
     border: 1px solid @bg4;
     color: @fg;
     background-color: @color4;
@@ -36,11 +36,11 @@ tooltip label {
 
 #workspaces button {
     padding: 0px 0 0 1px;
-    margin: 3 5 0 5px;
+    margin: 0 5 0 5px;
     color: @color1;
     border-radius: 5px;
     font-size: 17px;
-    min-width: 20px; 
+    min-width: 30px; 
 }
 
 #workspaces button.active {

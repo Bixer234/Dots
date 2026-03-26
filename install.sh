@@ -64,13 +64,13 @@ fi
 echo -e "${YELLOW}Copying Dotfiles to system...${NC}"
 
 # Root Home scripts/folders
-cp ~/Dots/appmenu.sh ~
+cp ~/Dots/app-menu.sh ~
 cp ~/Dots/select-wall.sh ~
 cp ~/Dots/toggle_squeekboard.sh ~
 cp -r ~/Dots/wallpapers ~
 
 # Make scripts executable
-chmod +x ~/appmenu.sh ~/select-wall.sh ~/toggle_squeekboard.sh
+chmod +x ~/app-menu.sh ~/select-wall.sh ~/toggle_squeekboard.sh
 
 # Config Folders
 cp -r ~/Dots/.config/fastfetch ~/.config/
@@ -146,5 +146,5 @@ killall waybar && waybar &
 gum style --foreground 212 --border double --margin 1 --padding 1 "Installation Complete!"
 
 if gum confirm "Reboot now?"; then
-    reboot
+   systemctl reboot -i
 fi
