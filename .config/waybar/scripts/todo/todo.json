@@ -7,9 +7,9 @@
   },
   "tasks": [
     {
-      "priority": 2,
+      "priority": 4,
       "status": 1,
-      "description": "Fix these colors"
+      "description": "meh"
     }
   ]
 }

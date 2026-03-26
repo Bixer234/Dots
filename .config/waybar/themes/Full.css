@@ -142,3 +142,11 @@ tooltip label {
     /* High value ensures it stays round even if padding changes */
     border-radius: 20px;
 }
+
+#custom-todo {
+    color: @color6;
+}
+/* Pending Tasks */
+#custom-todo.pending {
+    color: @color9;
+}

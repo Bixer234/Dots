@@ -94,4 +94,5 @@
 
 * [![saneaspect](https://img.shields.io/badge/saneaspect-Profile-black?style=flat-square&logo=github)](https://github.com/saneaspect) — For technical inspiration and dots.
 * **[elifouts](https://github.com/elifouts)** — For Swaync, Waybar, and inspiration for the GitHub repo.
+* **[elifouts](https://github.com/Harsh-bin)** - For the todo-list module
 * **[Typing SVG](https://github.com/DenverCoder1/readme-typing-svg)** — For the animated header.
