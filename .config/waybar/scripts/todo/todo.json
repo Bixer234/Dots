@@ -8,8 +8,8 @@
   "tasks": [
     {
       "priority": 1,
-      "status": 1,
-      "description": "Fix to-do list module colors"
+      "status": 0,
+      "description": "Make a working install script for your dotfiles"
     }
   ]
 }

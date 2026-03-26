@@ -90,6 +90,16 @@
 
 ---
 
+## 🛠️ Setup
+
+After Cloning the dotfiles, use stow to set them up, after that run:
+
+```bash
+yay -S python-pywal16
+sudo cp ~/.config/rofi/launchers/type-1/style-3.rasi /usr/share/rofi/themes/
+sudo cp -r ~/.config/rofi/launchers/type-1/shared /usr/share/rofi/themes/
+---
+
 ## 📝 Credits
 
 * **[saneAspect](https://www.youtube.com/@saneAspect)**  — For Waybar.

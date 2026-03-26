@@ -1,6 +1,6 @@
-@import "/home/bixer/.config/waybar/colors/field.css";
-@import "/home/bixer/.cache/wal/colors-waybar.css";
-@import "/home/bixer/.config/waybar/colors.css";
+@import "../../../.config/waybar/colors/field.css";
+@import "../../../.cache/wal/colors-waybar.css";
+@import "../../../.config/waybar/colors.css";
 
 * {
     all: unset;

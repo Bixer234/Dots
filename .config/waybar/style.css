@@ -1,5 +1,5 @@
 @import "colors/field.css";
-@import "/home/bixer/.cache/wal/colors-waybar.css";
+@import "../../../.cache/wal/colors-waybar.css";
 @import "colors.css";
 
 * {

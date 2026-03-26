@@ -2,17 +2,18 @@
 {
     "layer": "top",
     "position": "top",
-    "margin-top": 15,
+    "margin-top": 0,
     "reload_style_on_change": true,
     "modules-left": [
         "clock",
         "hyprland/workspaces",
-        "custom/todo"
+        
     ],
     "modules-center": [
         "tray"
     ],
     "modules-right": [
+        "custom/todo",
         "custom/keyboard",
         "pulseaudio",
         "network",
@@ -30,8 +31,8 @@
     "custom/keyboard": {
         "format": "{}",
         "return-type": "json",
-        "exec": "~/toggle_squeekboard.sh status",
-        "on-click": "~/toggle_squeekboard.sh",
+        "exec": "/home/bixer/toggle_squeekboard.sh status",
+        "on-click": "/home/bixer/toggle_squeekboard.sh",
         "signal": 1,
         "interval": 5,
         "tooltip": false
