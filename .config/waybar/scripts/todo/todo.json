@@ -5,26 +5,5 @@
     "last_checked_timestamp": 0,
     "middle_click_action": "none"
   },
-  "tasks": [
-    {
-      "priority": 1,
-      "status": 0,
-      "description": "Add a way to auto install Google Sans Flex"
-    },
-    {
-      "priority": 2,
-      "status": 0,
-      "description": "Rofi icon"
-    },
-    {
-      "priority": 3,
-      "status": 0,
-      "description": "Update README.md"
-    },
-    {
-      "priority": 4,
-      "status": 1,
-      "description": "Make a working install script for your dotfiles"
-    }
-  ]
+  "tasks": []
 }

@@ -1,4 +1,4 @@
-#############################
+	#############################
 ### ENVIRONMENT VARIABLES ###
 #############################
 
@@ -19,4 +19,5 @@ env = QT_AUTO_SCREEN_SCALE_FACTOR,1
 # Disables window decorations on Qt applications
 env = QT_WAYLAND_DISABLE_WINDOWDECORATION,1
 
-
+env = QT_QPA_PLATFORMTHEME,qt6ct
+env = GTK_THEME,adw-gtk3-dark

@@ -2,17 +2,17 @@
 {
     "layer": "top",
     "position": "top",
-    "margin-top": 0,
+    "margin-top": 15,
     "reload_style_on_change": true,
     "modules-left": [
-        "clock",
-        "hyprland/workspaces",
+        "custom/arch-logo",
+        "custom/todo"
     ],
     "modules-center": [
-        "tray"
+        "clock",
+        "hyprland/workspaces"
     ],
     "modules-right": [
-        "custom/todo",
         "custom/keyboard",
         "pulseaudio",
         "network",
@@ -28,18 +28,25 @@
     "custom/keyboard": {
         "format": "{}",
         "return-type": "json",
-        "exec": "/home/bixer/toggle_squeekboard.sh status",
-        "on-click": "/home/bixer/toggle_squeekboard.sh",
+        "exec": "~/toggle_squeekboard.sh status",
+        "on-click": "~/toggle_squeekboard.sh",
         "signal": 1,
         "interval": 5,
         "tooltip": false
     },
     "hyprland/workspaces": {
-        "format": "{name}",
+        "format": "{icon}",
         "format-icons": {
-            "active": "",
-            "default": ""
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "󰍳",
+            "5": "",
         },
+        "persistent-workspaces": {
+            "*": 5, // 5 workspaces by default on every monitor
+            "HDMI-A-1": 3 // but only three on HDMI-A-1
+        }
     },
     "network": {
         "format-wifi": "{essid} 󰤨",
@@ -92,6 +99,11 @@
         "return-type": "json",
         "interval": 1,
         "tooltip": true
+    },
+    "custom/arch-logo": {
+        "format": "󰣇",
+        "tooltip": false,
+        "on-click": "rofi -show drun" // Optional: makes it a launcher
     },
     "custom/notification": {
         "tooltip": false,

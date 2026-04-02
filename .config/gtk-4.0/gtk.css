@@ -1,1 +1,4 @@
-/usr/share/themes/adw-gtk3-dark/gtk-4.0/gtk.css
+@import '/home/bixer/.local/share/gnome-shell/extensions/kiwi@kemma/icons/gtk4.css';
+@import '/home/bixer/.config/gtk-4.0/colors.css';
+@import url('libadwaita.css');
+@import url('libadwaita-tweaks.css');
