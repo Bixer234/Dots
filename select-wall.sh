@@ -159,6 +159,7 @@ if pgrep -x "swaync" > /dev/null; then
     swaync-client -rs
 fi
 
+vicinae vicinae://set-theme?id=pywal
 # Restart waybar in a new session to avoid hanging the terminal
 setsid waybar -c "$CURRENT_CONF" -s "$CURRENT_STYLE" >/dev/null 2>&1 &
 
