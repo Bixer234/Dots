@@ -50,7 +50,7 @@ tooltip label {
     background-color: @primary;
     color: @on_primary;
     min-width: 50px;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.3s ease-in-out;
     font-size: 13px;
 }
 

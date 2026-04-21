@@ -1,5 +1,3 @@
-@import "../../../.config/waybar/colors/field.css";
-@import "../../../.cache/wal/colors-waybar.css";
 @import "../../../.config/waybar/colors.css";
 
 * {
@@ -8,20 +6,18 @@
 }
 
 tooltip {
-    background-color: @bg1;
-    color: @fg;
+    background-color: @surface_container;
+    color: @on_surface;
     margin: 10px;
     padding: 10px;
     border-radius: 12px;
 }
 
 .modules-center {
-    background-color: @bg1;
-    color: @fg;
+    background-color: @surface_container;
+    color: @on_surface;
     padding: 4px 18px;
     border-radius: 99px;
-
-
 }
 
 #clock {
@@ -29,14 +25,14 @@ tooltip {
 }
 
 #workspaces {
-    background-color: @bg2;
+    background-color: @surface_container_high;
     padding: 2px 4px;
     margin: 3px 0;
     border-radius: 99px;
 }
 
 #workspaces button {
-    background-color: @bg3;
+    background-color: @surface_container_highest;
     padding: 0px 5px;
     border-radius: 99px;
     margin: 0 2px;
@@ -45,47 +41,52 @@ tooltip {
 }
 
 #workspaces button.empty {
-    color: @grey;
+    color: @outline;
 }
 
 #workspaces button.active {
-    background-color: @color6;
-    color: @bg1;
+    background-color: @primary;
+    color: @on_primary;
     min-width: 1.5rem;
     font-weight: 600;
     transition: none;
 }
 
 #workspaces button.urgent {
-    background-color: @red;
+    background-color: @error;
+    color: @on_error;
 }
 
 #battery.charging {
-    background-color: @color7;
+    background-color: @green_container;
+    color: @on_green_container;
 }
 
 #battery {
-    background-color: @color6;
+    background-color: @primary;
     margin: 6px 0;
     padding: 0 8px;
     border-radius: 99px;
     font-weight: 600;
-    color: @bg1;
+    color: @on_primary;
     letter-spacing: 0.5px;
 }
 
 #battery.warning {
-    background-color: @yellow;
+    background-color: @yellow_container;
+    color: @on_yellow_container;
 }
 
 #battery.critical {
-    background-color: @red;
+    background-color: @error;
+    color: @on_error;
 }
 
 #custom-keyboard.enabled {
-    color: @color6;
+    color: @green;
 }
 
 #custom-keyboard.disabled {
     border-radius: 20px;
+    color: @error;
 }

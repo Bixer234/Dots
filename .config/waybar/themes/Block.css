@@ -1,9 +1,7 @@
-@import "../../../.cache/wal/colors-waybar.css";
 @import "../../../.config/waybar/colors.css";
-@import "../../../.config/waybar/colors/one-dark.css";
 
 * {
-    font-family: "Google Sans Flex", "JetBrains MOnoNerd Font Propo";
+    font-family: "Google Sans Flex", "JetBrains Mono Nerd Font Propo";
     padding: 0 0 0 0;
     margin: 0 0 2 0;
     font-size: 17px;
@@ -11,17 +9,17 @@
 }
 
 window#waybar {
-    background: @bg1;
+    background: @surface_container_low;
 }
 
 tooltip {
-    background: @bg0;
-    border: 1px solid @bg3;
+    background: @surface_container;
+    border: none;
     border-radius: 12px;
 }
 
 tooltip label {
-    color: @fg;
+    color: @on_surface;
     padding: 6px;
 }
 
@@ -29,33 +27,33 @@ tooltip label {
     border-radius: 5px;
     padding: 0px 0 0 0px;
     margin: 4 5 0 5px;
-    border: 1px solid @bg4;
-    color: @fg;
-    background-color: @color4;
+    border: none;
+    color: @on_surface;
+    background-color: @primary_container;
 }
 
 #workspaces button {
     padding: 1px 0 0 1px;
     margin: 0 0 0 0px;
-    color: @color1;
+    color: @on_primary_container;
     border-radius: 5px;
     font-size: 17px;
-    min-width: 30px; 
+    min-width: 30px;
 }
 
 #workspaces button.active {
     padding: 1px 0 0 1px;
     margin: 0 0 0 0px;
-    background-color: @color6;
-    color: @bg0;
+    background-color: @primary;
+    color: @on_primary;
     min-width: 30px;
     transition: all 0.1s ease-in-out;
     font-size: 17px;
 }
 
 #workspaces button:hover {
-    background-color: @color1;
-    color: @bg0;
+    background-color: @tertiary;
+    color: @on_tertiary;
     border-radius: 5px;
     min-width: 30px;
     background-size: 400% 400%;
@@ -63,8 +61,8 @@ tooltip label {
 }
 
 #workspaces button.urgent {
-    background-color: @color2;
-    color: @bg0;
+    background-color: @error;
+    color: @on_error;
     border-radius: 5px;
     min-width: 30px;
     background-size: 400% 400%;
@@ -79,72 +77,72 @@ tooltip label {
 #network,
 #clock,
 #custom-notification {
-    color: @color7;
+    color: @on_surface;
     padding: 0 10px 0 10px;
     margin: 3 5 0 5px;
     border-radius: 5px;
-    border: 1px solid @bg1;
+    border: none;
 }
 
 #clock {
-    background-color: @color1;
+    background-color: @secondary_container;
+    color: @on_secondary_container;
 }
 
 #custom-keyboard {
-    background-color: @bg3;
+    background-color: @surface_container_high;
     padding: 0 10px;
-    color: @foreground;
+    color: @on_surface;
     transition: all 300ms cubic-bezier(.55, 0, .28, 1);
 }
 
-
 #custom-keyboard.enabled {
-    color: @color2;
-    /* Square state */
+    color: @green;
     border-radius: 6px;
 }
 
 #custom-keyboard.disabled {
-    color: @color1;
-    background-color: @bg2;
-    /* Circle/Capsule state */
-    /* High value ensures it stays round even if padding changes */
+    color: @error;
+    background-color: @surface_container;
     border-radius: 5px;
 }
 
 #custom-todo {
-    color: @color7;
-    background-color: @color3;
+    color: @on_tertiary_container;
+    background-color: @tertiary_container;
 }
 
-/* Pending Tasks */
 #custom-todo.pending {
-    background-color: @color1;
-    color: @color7;
+    background-color: @error_container;
+    color: @on_error_container;
 }
 
 #pulseaudio {
-    background-color: @color2;
+    background-color: @secondary_container;
+    color: @on_secondary_container;
     border-radius: 5px;
 }
 
 #network {
-    background-color: @color3;
+    background-color: @tertiary_container;
+    color: @on_tertiary_container;
 }
 
 #battery {
-    background-color: @color4;
+    background-color: @primary_container;
+    color: @on_primary_container;
 }
 
 #battery.charging {
-    color: @color6;
+    color: @green;
 }
 
 #custom-notification {
-    background-color: @color10;
+    background-color: @surface_container_highest;
+    color: @on_surface;
 }
 
 #tray {
-    background-color: @bg4;
+    background-color: @surface_container_high;
     border-radius: 5px;
 }
