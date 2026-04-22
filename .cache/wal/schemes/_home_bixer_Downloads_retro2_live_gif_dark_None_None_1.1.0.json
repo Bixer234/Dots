@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/Downloads/retro2_live.gif",
+    "alpha": "100",
+    "special": {
+        "background": "#03040D",
+        "foreground": "#d9cbd2",
+        "cursor": "#d9cbd2"
+    },
+    "colors": {
+        "color0": "#03040D",
+        "color1": "#9B4541",
+        "color2": "#A49029",
+        "color3": "#074E9F",
+        "color4": "#2761B9",
+        "color5": "#D247CE",
+        "color6": "#5D97ED",
+        "color7": "#d9cbd2",
+        "color8": "#978e93",
+        "color9": "#9B4541",
+        "color10": "#A49029",
+        "color11": "#074E9F",
+        "color12": "#2761B9",
+        "color13": "#D247CE",
+        "color14": "#5D97ED",
+        "color15": "#d9cbd2"
+    }
+}

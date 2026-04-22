@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/iceland.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f160f",
+        "foreground": "#bcc6c7",
+        "cursor": "#bcc6c7"
+    },
+    "colors": {
+        "color0": "#0f160f",
+        "color1": "#485757",
+        "color2": "#566869",
+        "color3": "#5F7267",
+        "color4": "#6F8459",
+        "color5": "#657E81",
+        "color6": "#73898C",
+        "color7": "#bcc6c7",
+        "color8": "#838a8b",
+        "color9": "#485757",
+        "color10": "#566869",
+        "color11": "#5F7267",
+        "color12": "#6F8459",
+        "color13": "#657E81",
+        "color14": "#73898C",
+        "color15": "#bcc6c7"
+    }
+}

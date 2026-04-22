@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/catpuccin_samurai.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0f16",
+        "foreground": "#f1e7e5",
+        "cursor": "#f1e7e5"
+    },
+    "colors": {
+        "color0": "#0f0f16",
+        "color1": "#75BDDF",
+        "color2": "#9197B3",
+        "color3": "#EDA796",
+        "color4": "#A5B3D6",
+        "color5": "#9BCDEC",
+        "color6": "#E6D8DD",
+        "color7": "#f1e7e5",
+        "color8": "#a8a1a0",
+        "color9": "#75BDDF",
+        "color10": "#9197B3",
+        "color11": "#EDA796",
+        "color12": "#A5B3D6",
+        "color13": "#9BCDEC",
+        "color14": "#E6D8DD",
+        "color15": "#f1e7e5"
+    }
+}

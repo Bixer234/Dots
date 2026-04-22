@@ -1,0 +1,21 @@
+set $wallpaper /home/bixer/wallpapers/Sculpture.png
+
+set $background #121212
+set $foreground #cac4bb
+
+set $color0 #121212
+set $color1 #645B4E
+set $color2 #756755
+set $color3 #85725A
+set $color4 #897B67
+set $color5 #958773
+set $color6 #A4917A
+set $color7 #cac4bb
+set $color8 #8d8982
+set $color9 #645B4E
+set $color10 #756755
+set $color11 #85725A
+set $color12 #897B67
+set $color13 #958773
+set $color14 #A4917A
+set $color15 #cac4bb

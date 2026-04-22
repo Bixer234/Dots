@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Halloof.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#100d0d",
+        "foreground": "#ddc8af",
+        "cursor": "#ddc8af"
+    },
+    "colors": {
+        "color0": "#100d0d",
+        "color1": "#566566",
+        "color2": "#6E6D69",
+        "color3": "#9F6E5C",
+        "color4": "#937A70",
+        "color5": "#D0765A",
+        "color6": "#E49967",
+        "color7": "#ddc8af",
+        "color8": "#9a8c7a",
+        "color9": "#566566",
+        "color10": "#6E6D69",
+        "color11": "#9F6E5C",
+        "color12": "#937A70",
+        "color13": "#D0765A",
+        "color14": "#E49967",
+        "color15": "#ddc8af"
+    }
+}

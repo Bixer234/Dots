@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_stairs_leading_to_a_rocky_canyon_with_Flume_Gorge_in_the_background.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151313",
+        "foreground": "#c8c5c4",
+        "cursor": "#c8c5c4"
+    },
+    "colors": {
+        "color0": "#151313",
+        "color1": "#6C645D",
+        "color2": "#797F7B",
+        "color3": "#8A6F32",
+        "color4": "#8B7462",
+        "color5": "#B59E48",
+        "color6": "#9A906F",
+        "color7": "#c8c5c4",
+        "color8": "#8c8989",
+        "color9": "#6C645D",
+        "color10": "#797F7B",
+        "color11": "#8A6F32",
+        "color12": "#8B7462",
+        "color13": "#B59E48",
+        "color14": "#9A906F",
+        "color15": "#c8c5c4"
+    }
+}

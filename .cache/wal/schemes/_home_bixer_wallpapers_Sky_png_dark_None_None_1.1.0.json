@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Sky.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f2130",
+        "foreground": "#c0d0e1",
+        "cursor": "#c0d0e1"
+    },
+    "colors": {
+        "color0": "#0f2130",
+        "color1": "#1F64A3",
+        "color2": "#4977A6",
+        "color3": "#0B77C1",
+        "color4": "#5E8AB6",
+        "color5": "#2B8AC3",
+        "color6": "#6E9BC9",
+        "color7": "#c0d0e1",
+        "color8": "#86919d",
+        "color9": "#1F64A3",
+        "color10": "#4977A6",
+        "color11": "#0B77C1",
+        "color12": "#5E8AB6",
+        "color13": "#2B8AC3",
+        "color14": "#6E9BC9",
+        "color15": "#c0d0e1"
+    }
+}

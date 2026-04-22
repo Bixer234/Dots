@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/08. Abyssal Wave.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1f27",
+        "foreground": "#dfdbcf",
+        "cursor": "#dfdbcf"
+    },
+    "colors": {
+        "color0": "#1b1f27",
+        "color1": "#285E82",
+        "color2": "#31688A",
+        "color3": "#49728B",
+        "color4": "#A8A69A",
+        "color5": "#D2AD94",
+        "color6": "#BAC3BD",
+        "color7": "#dfdbcf",
+        "color8": "#9c9990",
+        "color9": "#285E82",
+        "color10": "#31688A",
+        "color11": "#49728B",
+        "color12": "#A8A69A",
+        "color13": "#D2AD94",
+        "color14": "#BAC3BD",
+        "color15": "#dfdbcf"
+    }
+}

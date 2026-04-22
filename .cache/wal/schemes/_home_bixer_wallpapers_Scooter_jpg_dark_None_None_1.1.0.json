@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Scooter.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E141A",
+        "foreground": "#dbcbd3",
+        "cursor": "#dbcbd3"
+    },
+    "colors": {
+        "color0": "#0E141A",
+        "color1": "#5F546C",
+        "color2": "#3D5984",
+        "color3": "#666787",
+        "color4": "#857D83",
+        "color5": "#996F90",
+        "color6": "#A199A3",
+        "color7": "#dbcbd3",
+        "color8": "#998e93",
+        "color9": "#5F546C",
+        "color10": "#3D5984",
+        "color11": "#666787",
+        "color12": "#857D83",
+        "color13": "#996F90",
+        "color14": "#A199A3",
+        "color15": "#dbcbd3"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_pixel_art_of_a_city_street.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1e1b1d",
+        "foreground": "#9eabb8",
+        "cursor": "#9eabb8"
+    },
+    "colors": {
+        "color0": "#1e1b1d",
+        "color1": "#555B6B",
+        "color2": "#685864",
+        "color3": "#6C646B",
+        "color4": "#84523E",
+        "color5": "#82534E",
+        "color6": "#856464",
+        "color7": "#9eabb8",
+        "color8": "#6e7780",
+        "color9": "#555B6B",
+        "color10": "#685864",
+        "color11": "#6C646B",
+        "color12": "#84523E",
+        "color13": "#82534E",
+        "color14": "#856464",
+        "color15": "#9eabb8"
+    }
+}

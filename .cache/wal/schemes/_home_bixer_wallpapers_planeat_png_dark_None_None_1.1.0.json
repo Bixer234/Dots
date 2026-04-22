@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/planeat.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1a1b25",
+        "foreground": "#e7e3e3",
+        "cursor": "#e7e3e3"
+    },
+    "colors": {
+        "color0": "#1a1b25",
+        "color1": "#CFBAA9",
+        "color2": "#E1CBB6",
+        "color3": "#B8BBC4",
+        "color4": "#C0BFC1",
+        "color5": "#B3C7C6",
+        "color6": "#D2CED2",
+        "color7": "#e7e3e3",
+        "color8": "#a19e9e",
+        "color9": "#CFBAA9",
+        "color10": "#E1CBB6",
+        "color11": "#B8BBC4",
+        "color12": "#C0BFC1",
+        "color13": "#B3C7C6",
+        "color14": "#D2CED2",
+        "color15": "#e7e3e3"
+    }
+}

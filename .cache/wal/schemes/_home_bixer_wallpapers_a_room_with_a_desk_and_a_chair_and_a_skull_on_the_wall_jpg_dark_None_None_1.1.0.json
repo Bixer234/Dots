@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_room_with_a_desk_and_a_chair_and_a_skull_on_the_wall.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#02060B",
+        "foreground": "#9aaaba",
+        "cursor": "#9aaaba"
+    },
+    "colors": {
+        "color0": "#02060B",
+        "color1": "#30455A",
+        "color2": "#334E6F",
+        "color3": "#585F68",
+        "color4": "#92665F",
+        "color5": "#70897D",
+        "color6": "#9F9672",
+        "color7": "#9aaaba",
+        "color8": "#6b7682",
+        "color9": "#30455A",
+        "color10": "#334E6F",
+        "color11": "#585F68",
+        "color12": "#92665F",
+        "color13": "#70897D",
+        "color14": "#9F9672",
+        "color15": "#9aaaba"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_small_plant_in_a_pot.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0f11",
+        "foreground": "#dad4d3",
+        "cursor": "#dad4d3"
+    },
+    "colors": {
+        "color0": "#0c0f11",
+        "color1": "#606459",
+        "color2": "#867861",
+        "color3": "#7B837B",
+        "color4": "#B0955D",
+        "color5": "#928B6E",
+        "color6": "#A49E9B",
+        "color7": "#dad4d3",
+        "color8": "#989493",
+        "color9": "#606459",
+        "color10": "#867861",
+        "color11": "#7B837B",
+        "color12": "#B0955D",
+        "color13": "#928B6E",
+        "color14": "#A49E9B",
+        "color15": "#dad4d3"
+    }
+}

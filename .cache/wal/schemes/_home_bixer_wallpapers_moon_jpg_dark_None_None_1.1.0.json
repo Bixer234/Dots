@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/moon.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#08161E",
+        "foreground": "#e0ddd0",
+        "cursor": "#e0ddd0"
+    },
+    "colors": {
+        "color0": "#08161E",
+        "color1": "#585F59",
+        "color2": "#7E8172",
+        "color3": "#878979",
+        "color4": "#A2A18D",
+        "color5": "#AEAB96",
+        "color6": "#C2BDA4",
+        "color7": "#e0ddd0",
+        "color8": "#9c9a91",
+        "color9": "#585F59",
+        "color10": "#7E8172",
+        "color11": "#878979",
+        "color12": "#A2A18D",
+        "color13": "#AEAB96",
+        "color14": "#C2BDA4",
+        "color15": "#e0ddd0"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_skeleton_standing_on_a_pile_of_skulls.png",
+    "alpha": "100",
+    "special": {
+        "background": "#040D1B",
+        "foreground": "#dfbeaf",
+        "cursor": "#dfbeaf"
+    },
+    "colors": {
+        "color0": "#040D1B",
+        "color1": "#113E61",
+        "color2": "#174E73",
+        "color3": "#2A4B66",
+        "color4": "#674E4C",
+        "color5": "#9A6553",
+        "color6": "#C47C61",
+        "color7": "#dfbeaf",
+        "color8": "#9c857a",
+        "color9": "#113E61",
+        "color10": "#174E73",
+        "color11": "#2A4B66",
+        "color12": "#674E4C",
+        "color13": "#9A6553",
+        "color14": "#C47C61",
+        "color15": "#dfbeaf"
+    }
+}

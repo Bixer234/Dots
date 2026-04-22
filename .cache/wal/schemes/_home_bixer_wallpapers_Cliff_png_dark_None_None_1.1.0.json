@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Cliff.png",
+    "alpha": "100",
+    "special": {
+        "background": "#242d1e",
+        "foreground": "#c9dfe2",
+        "cursor": "#c9dfe2"
+    },
+    "colors": {
+        "color0": "#242d1e",
+        "color1": "#A5C25D",
+        "color2": "#467687",
+        "color3": "#3CA7BF",
+        "color4": "#57949D",
+        "color5": "#A7AC97",
+        "color6": "#B8C0AC",
+        "color7": "#c9dfe2",
+        "color8": "#8c9c9e",
+        "color9": "#A5C25D",
+        "color10": "#467687",
+        "color11": "#3CA7BF",
+        "color12": "#57949D",
+        "color13": "#A7AC97",
+        "color14": "#B8C0AC",
+        "color15": "#c9dfe2"
+    }
+}

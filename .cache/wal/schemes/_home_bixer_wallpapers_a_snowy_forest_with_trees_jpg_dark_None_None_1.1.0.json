@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_snowy_forest_with_trees.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0B111A",
+        "foreground": "#d1ddec",
+        "cursor": "#d1ddec"
+    },
+    "colors": {
+        "color0": "#0B111A",
+        "color1": "#6D8FB3",
+        "color2": "#7C9EC3",
+        "color3": "#839CBC",
+        "color4": "#91AED0",
+        "color5": "#A0BADA",
+        "color6": "#A8C1DE",
+        "color7": "#d1ddec",
+        "color8": "#929aa5",
+        "color9": "#6D8FB3",
+        "color10": "#7C9EC3",
+        "color11": "#839CBC",
+        "color12": "#91AED0",
+        "color13": "#A0BADA",
+        "color14": "#A8C1DE",
+        "color15": "#d1ddec"
+    }
+}

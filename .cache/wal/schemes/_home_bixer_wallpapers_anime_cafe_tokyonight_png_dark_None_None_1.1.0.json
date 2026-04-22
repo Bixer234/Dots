@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/anime_cafe_tokyonight.png",
+    "alpha": "100",
+    "special": {
+        "background": "#151621",
+        "foreground": "#d2d9e3",
+        "cursor": "#d2d9e3"
+    },
+    "colors": {
+        "color0": "#151621",
+        "color1": "#7B859C",
+        "color2": "#A29AAE",
+        "color3": "#C8A8B3",
+        "color4": "#99A3CD",
+        "color5": "#B9B3C7",
+        "color6": "#C4B4C7",
+        "color7": "#d2d9e3",
+        "color8": "#93979e",
+        "color9": "#7B859C",
+        "color10": "#A29AAE",
+        "color11": "#C8A8B3",
+        "color12": "#99A3CD",
+        "color13": "#B9B3C7",
+        "color14": "#C4B4C7",
+        "color15": "#d2d9e3"
+    }
+}

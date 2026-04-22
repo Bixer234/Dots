@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/midgumi.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#e4cccf",
+        "cursor": "#e4cccf"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#B9222F",
+        "color2": "#C21F2D",
+        "color3": "#C52130",
+        "color4": "#C7555F",
+        "color5": "#B67E84",
+        "color6": "#A3A2A3",
+        "color7": "#e4cccf",
+        "color8": "#9f8e90",
+        "color9": "#B9222F",
+        "color10": "#C21F2D",
+        "color11": "#C52130",
+        "color12": "#C7555F",
+        "color13": "#B67E84",
+        "color14": "#A3A2A3",
+        "color15": "#e4cccf"
+    }
+}

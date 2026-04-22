@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Space Contrasted Barrels.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#211821",
+        "foreground": "#acb9bc",
+        "cursor": "#acb9bc"
+    },
+    "colors": {
+        "color0": "#211821",
+        "color1": "#926A5D",
+        "color2": "#D15641",
+        "color3": "#7D8272",
+        "color4": "#A5906D",
+        "color5": "#F1BA50",
+        "color6": "#C9A065",
+        "color7": "#acb9bc",
+        "color8": "#788183",
+        "color9": "#926A5D",
+        "color10": "#D15641",
+        "color11": "#7D8272",
+        "color12": "#A5906D",
+        "color13": "#F1BA50",
+        "color14": "#C9A065",
+        "color15": "#acb9bc"
+    }
+}

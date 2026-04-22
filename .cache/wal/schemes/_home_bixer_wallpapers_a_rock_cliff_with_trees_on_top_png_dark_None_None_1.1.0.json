@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_rock_cliff_with_trees_on_top.png",
+    "alpha": "100",
+    "special": {
+        "background": "#09100b",
+        "foreground": "#ccdada",
+        "cursor": "#ccdada"
+    },
+    "colors": {
+        "color0": "#09100b",
+        "color1": "#807B79",
+        "color2": "#63955E",
+        "color3": "#92A075",
+        "color4": "#3693A5",
+        "color5": "#68A0A9",
+        "color6": "#959C9A",
+        "color7": "#ccdada",
+        "color8": "#8e9898",
+        "color9": "#807B79",
+        "color10": "#63955E",
+        "color11": "#92A075",
+        "color12": "#3693A5",
+        "color13": "#68A0A9",
+        "color14": "#959C9A",
+        "color15": "#ccdada"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_cartoon_of_a_vehicle_with_a_monster_on_it.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1f140f",
+        "foreground": "#eadcd2",
+        "cursor": "#eadcd2"
+    },
+    "colors": {
+        "color0": "#1f140f",
+        "color1": "#D3AC6D",
+        "color2": "#6A8681",
+        "color3": "#BAB28C",
+        "color4": "#C2BCA4",
+        "color5": "#BAC2B9",
+        "color6": "#C7C1BB",
+        "color7": "#eadcd2",
+        "color8": "#a39a93",
+        "color9": "#D3AC6D",
+        "color10": "#6A8681",
+        "color11": "#BAB28C",
+        "color12": "#C2BCA4",
+        "color13": "#BAC2B9",
+        "color14": "#C7C1BB",
+        "color15": "#eadcd2"
+    }
+}

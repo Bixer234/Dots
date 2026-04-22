@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_road_with_a_car_in_the_middle_of_the_road.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0F15",
+        "foreground": "#dec290",
+        "cursor": "#dec290"
+    },
+    "colors": {
+        "color0": "#0A0F15",
+        "color1": "#5E451D",
+        "color2": "#73460E",
+        "color3": "#4B4C49",
+        "color4": "#9A5B0D",
+        "color5": "#C6750B",
+        "color6": "#D99123",
+        "color7": "#dec290",
+        "color8": "#9b8764",
+        "color9": "#5E451D",
+        "color10": "#73460E",
+        "color11": "#4B4C49",
+        "color12": "#9A5B0D",
+        "color13": "#C6750B",
+        "color14": "#D99123",
+        "color15": "#dec290"
+    }
+}

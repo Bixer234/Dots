@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_person_wearing_headphones.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1f2329",
+        "foreground": "#d9c8cd",
+        "cursor": "#d9c8cd"
+    },
+    "colors": {
+        "color0": "#1f2329",
+        "color1": "#B77A85",
+        "color2": "#6889A7",
+        "color3": "#67A2D4",
+        "color4": "#61AFEE",
+        "color5": "#9897A5",
+        "color6": "#ABB0BD",
+        "color7": "#d9c8cd",
+        "color8": "#978c8f",
+        "color9": "#B77A85",
+        "color10": "#6889A7",
+        "color11": "#67A2D4",
+        "color12": "#61AFEE",
+        "color13": "#9897A5",
+        "color14": "#ABB0BD",
+        "color15": "#d9c8cd"
+    }
+}

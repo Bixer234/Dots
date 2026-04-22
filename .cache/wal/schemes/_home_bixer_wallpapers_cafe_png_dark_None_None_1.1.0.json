@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/cafe.png",
+    "alpha": "100",
+    "special": {
+        "background": "#171810",
+        "foreground": "#dcddce",
+        "cursor": "#dcddce"
+    },
+    "colors": {
+        "color0": "#171810",
+        "color1": "#728860",
+        "color2": "#B4BF5C",
+        "color3": "#908A6D",
+        "color4": "#9A9B63",
+        "color5": "#ABAA98",
+        "color6": "#BEBEAA",
+        "color7": "#dcddce",
+        "color8": "#9a9a90",
+        "color9": "#728860",
+        "color10": "#B4BF5C",
+        "color11": "#908A6D",
+        "color12": "#9A9B63",
+        "color13": "#ABAA98",
+        "color14": "#BEBEAA",
+        "color15": "#dcddce"
+    }
+}

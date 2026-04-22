@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Campfire.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0d09",
+        "foreground": "#e2c098",
+        "cursor": "#e2c098"
+    },
+    "colors": {
+        "color0": "#0c0d09",
+        "color1": "#2B4336",
+        "color2": "#504730",
+        "color3": "#6D4E30",
+        "color4": "#525849",
+        "color5": "#975F31",
+        "color6": "#AE6F3F",
+        "color7": "#e2c098",
+        "color8": "#9e866a",
+        "color9": "#2B4336",
+        "color10": "#504730",
+        "color11": "#6D4E30",
+        "color12": "#525849",
+        "color13": "#975F31",
+        "color14": "#AE6F3F",
+        "color15": "#e2c098"
+    }
+}

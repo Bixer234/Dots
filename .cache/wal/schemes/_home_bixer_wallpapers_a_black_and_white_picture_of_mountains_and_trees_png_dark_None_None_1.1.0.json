@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_black_and_white_picture_of_mountains_and_trees.png",
+    "alpha": "100",
+    "special": {
+        "background": "#020202",
+        "foreground": "#f1f1f1",
+        "cursor": "#f1f1f1"
+    },
+    "colors": {
+        "color0": "#020202",
+        "color1": "#686868",
+        "color2": "#777777",
+        "color3": "#8E8E8E",
+        "color4": "#AFAFAF",
+        "color5": "#D0D0D0",
+        "color6": "#E7E7E7",
+        "color7": "#f1f1f1",
+        "color8": "#a8a8a8",
+        "color9": "#686868",
+        "color10": "#777777",
+        "color11": "#8E8E8E",
+        "color12": "#AFAFAF",
+        "color13": "#D0D0D0",
+        "color14": "#E7E7E7",
+        "color15": "#f1f1f1"
+    }
+}

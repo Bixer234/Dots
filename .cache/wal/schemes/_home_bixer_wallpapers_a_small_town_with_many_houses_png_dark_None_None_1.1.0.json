@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_small_town_with_many_houses.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0c04",
+        "foreground": "#d0c0ac",
+        "cursor": "#d0c0ac"
+    },
+    "colors": {
+        "color0": "#0f0c04",
+        "color1": "#6C4F29",
+        "color2": "#564F47",
+        "color3": "#635B53",
+        "color4": "#6C635B",
+        "color5": "#776D65",
+        "color6": "#867667",
+        "color7": "#d0c0ac",
+        "color8": "#918678",
+        "color9": "#6C4F29",
+        "color10": "#564F47",
+        "color11": "#635B53",
+        "color12": "#6C635B",
+        "color13": "#776D65",
+        "color14": "#867667",
+        "color15": "#d0c0ac"
+    }
+}

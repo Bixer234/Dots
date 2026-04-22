@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/JP Switch.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0E1017",
+        "foreground": "#9a97bf",
+        "cursor": "#9a97bf"
+    },
+    "colors": {
+        "color0": "#0E1017",
+        "color1": "#562653",
+        "color2": "#545353",
+        "color3": "#D0092C",
+        "color4": "#FE0028",
+        "color5": "#9E2941",
+        "color6": "#6B3589",
+        "color7": "#9a97bf",
+        "color8": "#6b6985",
+        "color9": "#562653",
+        "color10": "#545353",
+        "color11": "#D0092C",
+        "color12": "#FE0028",
+        "color13": "#9E2941",
+        "color14": "#6B3589",
+        "color15": "#9a97bf"
+    }
+}

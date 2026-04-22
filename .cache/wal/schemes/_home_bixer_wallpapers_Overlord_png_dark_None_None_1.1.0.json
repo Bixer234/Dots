@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Overlord.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0b13",
+        "foreground": "#cce1e7",
+        "cursor": "#cce1e7"
+    },
+    "colors": {
+        "color0": "#0b0b13",
+        "color1": "#6E748A",
+        "color2": "#817F8F",
+        "color3": "#7A879F",
+        "color4": "#9099AE",
+        "color5": "#9CB1D3",
+        "color6": "#C2BCC7",
+        "color7": "#cce1e7",
+        "color8": "#8e9da1",
+        "color9": "#6E748A",
+        "color10": "#817F8F",
+        "color11": "#7A879F",
+        "color12": "#9099AE",
+        "color13": "#9CB1D3",
+        "color14": "#C2BCC7",
+        "color15": "#cce1e7"
+    }
+}

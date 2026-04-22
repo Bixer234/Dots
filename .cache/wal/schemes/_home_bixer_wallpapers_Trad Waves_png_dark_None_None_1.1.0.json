@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Trad Waves.png",
+    "alpha": "100",
+    "special": {
+        "background": "#010417",
+        "foreground": "#c8d8d9",
+        "cursor": "#c8d8d9"
+    },
+    "colors": {
+        "color0": "#010417",
+        "color1": "#868079",
+        "color2": "#033689",
+        "color3": "#085B9A",
+        "color4": "#3D739F",
+        "color5": "#1791B1",
+        "color6": "#46AFC4",
+        "color7": "#c8d8d9",
+        "color8": "#8c9797",
+        "color9": "#868079",
+        "color10": "#033689",
+        "color11": "#085B9A",
+        "color12": "#3D739F",
+        "color13": "#1791B1",
+        "color14": "#46AFC4",
+        "color15": "#c8d8d9"
+    }
+}

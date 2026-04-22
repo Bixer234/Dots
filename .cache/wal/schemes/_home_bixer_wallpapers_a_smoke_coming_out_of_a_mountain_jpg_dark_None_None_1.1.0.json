@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_smoke_coming_out_of_a_mountain.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1a1e25",
+        "foreground": "#e2dfde",
+        "cursor": "#e2dfde"
+    },
+    "colors": {
+        "color0": "#1a1e25",
+        "color1": "#7F7C80",
+        "color2": "#A09792",
+        "color3": "#B6ADAA",
+        "color4": "#D1AC90",
+        "color5": "#C5BBB7",
+        "color6": "#CCC2BD",
+        "color7": "#e2dfde",
+        "color8": "#9e9c9b",
+        "color9": "#7F7C80",
+        "color10": "#A09792",
+        "color11": "#B6ADAA",
+        "color12": "#D1AC90",
+        "color13": "#C5BBB7",
+        "color14": "#CCC2BD",
+        "color15": "#e2dfde"
+    }
+}

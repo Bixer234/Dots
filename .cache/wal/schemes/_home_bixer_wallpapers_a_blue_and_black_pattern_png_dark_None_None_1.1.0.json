@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_blue_and_black_pattern.png",
+    "alpha": "100",
+    "special": {
+        "background": "#121112",
+        "foreground": "#b2bdb7",
+        "cursor": "#b2bdb7"
+    },
+    "colors": {
+        "color0": "#121112",
+        "color1": "#7B8173",
+        "color2": "#8E8B78",
+        "color3": "#3C7D82",
+        "color4": "#447E81",
+        "color5": "#3D8288",
+        "color6": "#45878A",
+        "color7": "#b2bdb7",
+        "color8": "#7c8480",
+        "color9": "#7B8173",
+        "color10": "#8E8B78",
+        "color11": "#3C7D82",
+        "color12": "#447E81",
+        "color13": "#3D8288",
+        "color14": "#45878A",
+        "color15": "#b2bdb7"
+    }
+}

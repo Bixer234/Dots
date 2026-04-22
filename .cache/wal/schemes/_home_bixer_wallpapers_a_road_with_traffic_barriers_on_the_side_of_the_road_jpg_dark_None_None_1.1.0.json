@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_road_with_traffic_barriers_on_the_side_of_the_road.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a1011",
+        "foreground": "#c3c1c0",
+        "cursor": "#c3c1c0"
+    },
+    "colors": {
+        "color0": "#0a1011",
+        "color1": "#393F40",
+        "color2": "#3C4344",
+        "color3": "#4F4F4D",
+        "color4": "#6C6765",
+        "color5": "#956962",
+        "color6": "#8E8180",
+        "color7": "#c3c1c0",
+        "color8": "#888786",
+        "color9": "#393F40",
+        "color10": "#3C4344",
+        "color11": "#4F4F4D",
+        "color12": "#6C6765",
+        "color13": "#956962",
+        "color14": "#8E8180",
+        "color15": "#c3c1c0"
+    }
+}

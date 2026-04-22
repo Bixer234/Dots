@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Arch.png",
+    "alpha": "100",
+    "special": {
+        "background": "#11121c",
+        "foreground": "#c9b9e5",
+        "cursor": "#c9b9e5"
+    },
+    "colors": {
+        "color0": "#11121c",
+        "color1": "#695991",
+        "color2": "#73609E",
+        "color3": "#7A65A7",
+        "color4": "#866FB7",
+        "color5": "#967ACA",
+        "color6": "#9E81D5",
+        "color7": "#c9b9e5",
+        "color8": "#8c81a0",
+        "color9": "#695991",
+        "color10": "#73609E",
+        "color11": "#7A65A7",
+        "color12": "#866FB7",
+        "color13": "#967ACA",
+        "color14": "#9E81D5",
+        "color15": "#c9b9e5"
+    }
+}

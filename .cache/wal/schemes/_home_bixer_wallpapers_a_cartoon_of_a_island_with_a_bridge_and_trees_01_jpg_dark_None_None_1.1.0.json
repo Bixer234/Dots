@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_cartoon_of_a_island_with_a_bridge_and_trees_01.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#10161e",
+        "foreground": "#cdc3c8",
+        "cursor": "#cdc3c8"
+    },
+    "colors": {
+        "color0": "#10161e",
+        "color1": "#6C87BB",
+        "color2": "#6083C2",
+        "color3": "#6F8DC3",
+        "color4": "#9F8281",
+        "color5": "#8F93B2",
+        "color6": "#9A9FB9",
+        "color7": "#cdc3c8",
+        "color8": "#8f888c",
+        "color9": "#6C87BB",
+        "color10": "#6083C2",
+        "color11": "#6F8DC3",
+        "color12": "#9F8281",
+        "color13": "#8F93B2",
+        "color14": "#9A9FB9",
+        "color15": "#cdc3c8"
+    }
+}

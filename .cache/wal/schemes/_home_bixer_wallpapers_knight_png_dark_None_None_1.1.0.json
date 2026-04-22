@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/knight.png",
+    "alpha": "100",
+    "special": {
+        "background": "#22121a",
+        "foreground": "#b4b3b7",
+        "cursor": "#b4b3b7"
+    },
+    "colors": {
+        "color0": "#22121a",
+        "color1": "#3A2E49",
+        "color2": "#4A384E",
+        "color3": "#635256",
+        "color4": "#994E2D",
+        "color5": "#8E6D62",
+        "color6": "#A48660",
+        "color7": "#b4b3b7",
+        "color8": "#7d7d80",
+        "color9": "#3A2E49",
+        "color10": "#4A384E",
+        "color11": "#635256",
+        "color12": "#994E2D",
+        "color13": "#8E6D62",
+        "color14": "#A48660",
+        "color15": "#b4b3b7"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_stone_steps_leading_up_to_a_forest.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#10171e",
+        "foreground": "#c1c7c9",
+        "cursor": "#c1c7c9"
+    },
+    "colors": {
+        "color0": "#10171e",
+        "color1": "#63616E",
+        "color2": "#926E6E",
+        "color3": "#A5867A",
+        "color4": "#5B708C",
+        "color5": "#728CA3",
+        "color6": "#799BC1",
+        "color7": "#c1c7c9",
+        "color8": "#878b8c",
+        "color9": "#63616E",
+        "color10": "#926E6E",
+        "color11": "#A5867A",
+        "color12": "#5B708C",
+        "color13": "#728CA3",
+        "color14": "#799BC1",
+        "color15": "#c1c7c9"
+    }
+}

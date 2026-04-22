@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_road_leading_to_a_body_of_water.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0f0e",
+        "foreground": "#ccdecc",
+        "cursor": "#ccdecc"
+    },
+    "colors": {
+        "color0": "#0d0f0e",
+        "color1": "#2D5A4F",
+        "color2": "#566253",
+        "color3": "#5D8865",
+        "color4": "#959A6E",
+        "color5": "#6A918C",
+        "color6": "#ACBEA2",
+        "color7": "#ccdecc",
+        "color8": "#8e9b8e",
+        "color9": "#2D5A4F",
+        "color10": "#566253",
+        "color11": "#5D8865",
+        "color12": "#959A6E",
+        "color13": "#6A918C",
+        "color14": "#ACBEA2",
+        "color15": "#ccdecc"
+    }
+}

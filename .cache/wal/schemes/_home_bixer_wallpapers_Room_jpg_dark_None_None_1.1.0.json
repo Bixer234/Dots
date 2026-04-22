@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Room.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0c0b",
+        "foreground": "#ebe7ca",
+        "cursor": "#ebe7ca"
+    },
+    "colors": {
+        "color0": "#0d0c0b",
+        "color1": "#6A5D48",
+        "color2": "#936334",
+        "color3": "#90714F",
+        "color4": "#768B3F",
+        "color5": "#B99A62",
+        "color6": "#C4B08D",
+        "color7": "#ebe7ca",
+        "color8": "#a4a18d",
+        "color9": "#6A5D48",
+        "color10": "#936334",
+        "color11": "#90714F",
+        "color12": "#768B3F",
+        "color13": "#B99A62",
+        "color14": "#C4B08D",
+        "color15": "#ebe7ca"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/meh.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0d16",
+        "foreground": "#c0b4ba",
+        "cursor": "#c0b4ba"
+    },
+    "colors": {
+        "color0": "#0f0d16",
+        "color1": "#6F5B69",
+        "color2": "#6C586B",
+        "color3": "#BD504A",
+        "color4": "#956567",
+        "color5": "#D49671",
+        "color6": "#747286",
+        "color7": "#c0b4ba",
+        "color8": "#867d82",
+        "color9": "#6F5B69",
+        "color10": "#6C586B",
+        "color11": "#BD504A",
+        "color12": "#956567",
+        "color13": "#D49671",
+        "color14": "#747286",
+        "color15": "#c0b4ba"
+    }
+}

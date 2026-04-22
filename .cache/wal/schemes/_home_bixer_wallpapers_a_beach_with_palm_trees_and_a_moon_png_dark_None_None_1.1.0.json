@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_beach_with_palm_trees_and_a_moon.png",
+    "alpha": "100",
+    "special": {
+        "background": "#06172A",
+        "foreground": "#c9ddeb",
+        "cursor": "#c9ddeb"
+    },
+    "colors": {
+        "color0": "#06172A",
+        "color1": "#4D7696",
+        "color2": "#3E98BA",
+        "color3": "#5A8EAD",
+        "color4": "#65A4CE",
+        "color5": "#92A6A4",
+        "color6": "#8DB7D5",
+        "color7": "#c9ddeb",
+        "color8": "#8c9aa4",
+        "color9": "#4D7696",
+        "color10": "#3E98BA",
+        "color11": "#5A8EAD",
+        "color12": "#65A4CE",
+        "color13": "#92A6A4",
+        "color14": "#8DB7D5",
+        "color15": "#c9ddeb"
+    }
+}

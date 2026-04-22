@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/Pictures/2026-03-07-124832_hyprshot.png",
+    "alpha": "100",
+    "special": {
+        "background": "#161612",
+        "foreground": "#9999c8",
+        "cursor": "#9999c8"
+    },
+    "colors": {
+        "color0": "#161612",
+        "color1": "#3F406C",
+        "color2": "#47494A",
+        "color3": "#676868",
+        "color4": "#9E623C",
+        "color5": "#369837",
+        "color6": "#383893",
+        "color7": "#9999c8",
+        "color8": "#6b6b8c",
+        "color9": "#3F406C",
+        "color10": "#47494A",
+        "color11": "#676868",
+        "color12": "#9E623C",
+        "color13": "#369837",
+        "color14": "#383893",
+        "color15": "#9999c8"
+    }
+}

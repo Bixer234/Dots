@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_road_with_trees_in_the_background.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#081118",
+        "foreground": "#a6a7ab",
+        "cursor": "#a6a7ab"
+    },
+    "colors": {
+        "color0": "#081118",
+        "color1": "#53525A",
+        "color2": "#55545C",
+        "color3": "#57565E",
+        "color4": "#58575F",
+        "color5": "#595860",
+        "color6": "#605F65",
+        "color7": "#a6a7ab",
+        "color8": "#747477",
+        "color9": "#53525A",
+        "color10": "#55545C",
+        "color11": "#57565E",
+        "color12": "#58575F",
+        "color13": "#595860",
+        "color14": "#605F65",
+        "color15": "#a6a7ab"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/rainship.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0c0c",
+        "foreground": "#c6c9ca",
+        "cursor": "#c6c9ca"
+    },
+    "colors": {
+        "color0": "#0b0c0c",
+        "color1": "#706E6D",
+        "color2": "#875F35",
+        "color3": "#8B756C",
+        "color4": "#85807D",
+        "color5": "#7C8487",
+        "color6": "#8D9090",
+        "color7": "#c6c9ca",
+        "color8": "#8a8c8d",
+        "color9": "#706E6D",
+        "color10": "#875F35",
+        "color11": "#8B756C",
+        "color12": "#85807D",
+        "color13": "#7C8487",
+        "color14": "#8D9090",
+        "color15": "#c6c9ca"
+    }
+}

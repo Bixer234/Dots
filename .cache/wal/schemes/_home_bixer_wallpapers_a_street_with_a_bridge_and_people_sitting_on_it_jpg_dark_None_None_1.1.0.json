@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_street_with_a_bridge_and_people_sitting_on_it.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0403",
+        "foreground": "#bea29b",
+        "cursor": "#bea29b"
+    },
+    "colors": {
+        "color0": "#0a0403",
+        "color1": "#59423C",
+        "color2": "#724435",
+        "color3": "#3E3D42",
+        "color4": "#433E43",
+        "color5": "#474447",
+        "color6": "#74574C",
+        "color7": "#bea29b",
+        "color8": "#85716c",
+        "color9": "#59423C",
+        "color10": "#724435",
+        "color11": "#3E3D42",
+        "color12": "#433E43",
+        "color13": "#474447",
+        "color14": "#74574C",
+        "color15": "#bea29b"
+    }
+}

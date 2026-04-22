@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/golden-mountains.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1212",
+        "foreground": "#dad4c3",
+        "cursor": "#dad4c3"
+    },
+    "colors": {
+        "color0": "#0f1212",
+        "color1": "#6C6858",
+        "color2": "#7B7563",
+        "color3": "#837D69",
+        "color4": "#928A73",
+        "color5": "#A1987E",
+        "color6": "#B1A789",
+        "color7": "#dad4c3",
+        "color8": "#989488",
+        "color9": "#6C6858",
+        "color10": "#7B7563",
+        "color11": "#837D69",
+        "color12": "#928A73",
+        "color13": "#A1987E",
+        "color14": "#B1A789",
+        "color15": "#dad4c3"
+    }
+}

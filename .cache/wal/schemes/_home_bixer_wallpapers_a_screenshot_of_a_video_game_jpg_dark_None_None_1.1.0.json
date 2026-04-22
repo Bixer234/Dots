@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_screenshot_of_a_video_game.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#d2d2d2",
+        "cursor": "#d2d2d2"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#575757",
+        "color2": "#676767",
+        "color3": "#777777",
+        "color4": "#888888",
+        "color5": "#979797",
+        "color6": "#A6A6A6",
+        "color7": "#d2d2d2",
+        "color8": "#939393",
+        "color9": "#575757",
+        "color10": "#676767",
+        "color11": "#777777",
+        "color12": "#888888",
+        "color13": "#979797",
+        "color14": "#A6A6A6",
+        "color15": "#d2d2d2"
+    }
+}

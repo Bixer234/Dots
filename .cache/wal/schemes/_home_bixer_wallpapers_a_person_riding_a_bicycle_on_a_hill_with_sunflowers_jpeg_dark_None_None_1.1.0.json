@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_person_riding_a_bicycle_on_a_hill_with_sunflowers.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#25312e",
+        "foreground": "#e1decb",
+        "cursor": "#e1decb"
+    },
+    "colors": {
+        "color0": "#25312e",
+        "color1": "#2E8695",
+        "color2": "#389CA0",
+        "color3": "#75A39A",
+        "color4": "#93B19C",
+        "color5": "#BCC19F",
+        "color6": "#D6C992",
+        "color7": "#e1decb",
+        "color8": "#9d9b8e",
+        "color9": "#2E8695",
+        "color10": "#389CA0",
+        "color11": "#75A39A",
+        "color12": "#93B19C",
+        "color13": "#BCC19F",
+        "color14": "#D6C992",
+        "color15": "#e1decb"
+    }
+}

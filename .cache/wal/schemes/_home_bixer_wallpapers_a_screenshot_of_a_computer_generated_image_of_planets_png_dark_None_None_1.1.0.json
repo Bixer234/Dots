@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_screenshot_of_a_computer_generated_image_of_planets.png",
+    "alpha": "100",
+    "special": {
+        "background": "#051419",
+        "foreground": "#d0cbc0",
+        "cursor": "#d0cbc0"
+    },
+    "colors": {
+        "color0": "#051419",
+        "color1": "#37484D",
+        "color2": "#27556C",
+        "color3": "#44565A",
+        "color4": "#646A66",
+        "color5": "#927360",
+        "color6": "#6B91A2",
+        "color7": "#d0cbc0",
+        "color8": "#918e86",
+        "color9": "#37484D",
+        "color10": "#27556C",
+        "color11": "#44565A",
+        "color12": "#646A66",
+        "color13": "#927360",
+        "color14": "#6B91A2",
+        "color15": "#d0cbc0"
+    }
+}

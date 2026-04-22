@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_building_with_traffic_cones_and_cars_in_the_rain.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0604",
+        "foreground": "#abbbb8",
+        "cursor": "#abbbb8"
+    },
+    "colors": {
+        "color0": "#0c0604",
+        "color1": "#4E494A",
+        "color2": "#6C615A",
+        "color3": "#914B39",
+        "color4": "#A3483D",
+        "color5": "#9A6853",
+        "color6": "#B89270",
+        "color7": "#abbbb8",
+        "color8": "#778280",
+        "color9": "#4E494A",
+        "color10": "#6C615A",
+        "color11": "#914B39",
+        "color12": "#A3483D",
+        "color13": "#9A6853",
+        "color14": "#B89270",
+        "color15": "#abbbb8"
+    }
+}

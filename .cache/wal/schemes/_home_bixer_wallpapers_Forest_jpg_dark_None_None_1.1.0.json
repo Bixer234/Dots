@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Forest.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0c1c",
+        "foreground": "#c1c5ad",
+        "cursor": "#c1c5ad"
+    },
+    "colors": {
+        "color0": "#0e0c1c",
+        "color1": "#343143",
+        "color2": "#533645",
+        "color3": "#375546",
+        "color4": "#5B5F4C",
+        "color5": "#916562",
+        "color6": "#6A8C59",
+        "color7": "#c1c5ad",
+        "color8": "#878979",
+        "color9": "#343143",
+        "color10": "#533645",
+        "color11": "#375546",
+        "color12": "#5B5F4C",
+        "color13": "#916562",
+        "color14": "#6A8C59",
+        "color15": "#c1c5ad"
+    }
+}

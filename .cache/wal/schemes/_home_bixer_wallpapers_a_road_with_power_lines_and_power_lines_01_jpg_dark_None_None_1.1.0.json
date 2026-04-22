@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_road_with_power_lines_and_power_lines_01.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#3a2526",
+        "foreground": "#f2e1ca",
+        "cursor": "#f2e1ca"
+    },
+    "colors": {
+        "color0": "#3a2526",
+        "color1": "#E7A66D",
+        "color2": "#FAC46A",
+        "color3": "#A37788",
+        "color4": "#B3908E",
+        "color5": "#CD938C",
+        "color6": "#E0AD98",
+        "color7": "#f2e1ca",
+        "color8": "#a99d8d",
+        "color9": "#E7A66D",
+        "color10": "#FAC46A",
+        "color11": "#A37788",
+        "color12": "#B3908E",
+        "color13": "#CD938C",
+        "color14": "#E0AD98",
+        "color15": "#f2e1ca"
+    }
+}

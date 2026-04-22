@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/rain_car.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0C0D",
+        "foreground": "#cedbdd",
+        "cursor": "#cedbdd"
+    },
+    "colors": {
+        "color0": "#0B0C0D",
+        "color1": "#5B6668",
+        "color2": "#667174",
+        "color3": "#79817E",
+        "color4": "#6E7C83",
+        "color5": "#78878C",
+        "color6": "#91A3A8",
+        "color7": "#cedbdd",
+        "color8": "#90999a",
+        "color9": "#5B6668",
+        "color10": "#667174",
+        "color11": "#79817E",
+        "color12": "#6E7C83",
+        "color13": "#78878C",
+        "color14": "#91A3A8",
+        "color15": "#cedbdd"
+    }
+}

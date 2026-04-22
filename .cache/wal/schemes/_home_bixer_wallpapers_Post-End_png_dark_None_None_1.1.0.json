@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Post-End.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0c0e",
+        "foreground": "#eccabe",
+        "cursor": "#eccabe"
+    },
+    "colors": {
+        "color0": "#0f0c0e",
+        "color1": "#9D5D65",
+        "color2": "#FB515D",
+        "color3": "#FB5861",
+        "color4": "#D26263",
+        "color5": "#FA6963",
+        "color6": "#F28B72",
+        "color7": "#eccabe",
+        "color8": "#a58d85",
+        "color9": "#9D5D65",
+        "color10": "#FB515D",
+        "color11": "#FB5861",
+        "color12": "#D26263",
+        "color13": "#FA6963",
+        "color14": "#F28B72",
+        "color15": "#eccabe"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Itadori_Yuji.mp4",
+    "alpha": "100",
+    "special": {
+        "background": "#0F1013",
+        "foreground": "#7e9fd8",
+        "cursor": "#7e9fd8"
+    },
+    "colors": {
+        "color0": "#0F1013",
+        "color1": "#32415E",
+        "color2": "#364270",
+        "color3": "#464A7A",
+        "color4": "#D6847F",
+        "color5": "#2E4C92",
+        "color6": "#48528F",
+        "color7": "#7e9fd8",
+        "color8": "#586f97",
+        "color9": "#32415E",
+        "color10": "#364270",
+        "color11": "#464A7A",
+        "color12": "#D6847F",
+        "color13": "#2E4C92",
+        "color14": "#48528F",
+        "color15": "#7e9fd8"
+    }
+}

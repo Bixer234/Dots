@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Life and Death.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0B0B",
+        "foreground": "#eeeeee",
+        "cursor": "#eeeeee"
+    },
+    "colors": {
+        "color0": "#0B0B0B",
+        "color1": "#919191",
+        "color2": "#B1B1B1",
+        "color3": "#C9C9C9",
+        "color4": "#D8D8D8",
+        "color5": "#E4E4E4",
+        "color6": "#EAEAEA",
+        "color7": "#eeeeee",
+        "color8": "#a6a6a6",
+        "color9": "#919191",
+        "color10": "#B1B1B1",
+        "color11": "#C9C9C9",
+        "color12": "#D8D8D8",
+        "color13": "#E4E4E4",
+        "color14": "#EAEAEA",
+        "color15": "#eeeeee"
+    }
+}

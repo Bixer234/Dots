@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Plane.png",
+    "alpha": "100",
+    "special": {
+        "background": "#121212",
+        "foreground": "#e6d7b7",
+        "cursor": "#e6d7b7"
+    },
+    "colors": {
+        "color0": "#121212",
+        "color1": "#D45C61",
+        "color2": "#E05F65",
+        "color3": "#E36568",
+        "color4": "#A79166",
+        "color5": "#E09F78",
+        "color6": "#EDB782",
+        "color7": "#e6d7b7",
+        "color8": "#a19680",
+        "color9": "#D45C61",
+        "color10": "#E05F65",
+        "color11": "#E36568",
+        "color12": "#A79166",
+        "color13": "#E09F78",
+        "color14": "#EDB782",
+        "color15": "#e6d7b7"
+    }
+}

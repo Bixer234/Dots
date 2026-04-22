@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/fractal.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0d12",
+        "foreground": "#ebb0be",
+        "cursor": "#ebb0be"
+    },
+    "colors": {
+        "color0": "#0d0d12",
+        "color1": "#34405F",
+        "color2": "#3A486B",
+        "color3": "#554B6D",
+        "color4": "#AA576A",
+        "color5": "#51669B",
+        "color6": "#617FC1",
+        "color7": "#ebb0be",
+        "color8": "#a47b85",
+        "color9": "#34405F",
+        "color10": "#3A486B",
+        "color11": "#554B6D",
+        "color12": "#AA576A",
+        "color13": "#51669B",
+        "color14": "#617FC1",
+        "color15": "#ebb0be"
+    }
+}

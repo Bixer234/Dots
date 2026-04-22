@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/ocean_with_cloud.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0C3C63",
+        "foreground": "#decbba",
+        "cursor": "#decbba"
+    },
+    "colors": {
+        "color0": "#0C3C63",
+        "color1": "#497591",
+        "color2": "#597D95",
+        "color3": "#3F88AF",
+        "color4": "#5B859C",
+        "color5": "#4886A8",
+        "color6": "#A1A094",
+        "color7": "#decbba",
+        "color8": "#9b8e82",
+        "color9": "#497591",
+        "color10": "#597D95",
+        "color11": "#3F88AF",
+        "color12": "#5B859C",
+        "color13": "#4886A8",
+        "color14": "#A1A094",
+        "color15": "#decbba"
+    }
+}

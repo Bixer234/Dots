@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_snow_covered_road_with_two_large_machines.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1c1d22",
+        "foreground": "#dbe4eb",
+        "cursor": "#dbe4eb"
+    },
+    "colors": {
+        "color0": "#1c1d22",
+        "color1": "#96A6B5",
+        "color2": "#A3B0BB",
+        "color3": "#9BB0C5",
+        "color4": "#A8BACD",
+        "color5": "#B2C4D5",
+        "color6": "#BFD0E0",
+        "color7": "#dbe4eb",
+        "color8": "#999fa4",
+        "color9": "#96A6B5",
+        "color10": "#A3B0BB",
+        "color11": "#9BB0C5",
+        "color12": "#A8BACD",
+        "color13": "#B2C4D5",
+        "color14": "#BFD0E0",
+        "color15": "#dbe4eb"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Artificial Valley.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1018",
+        "foreground": "#d7d6df",
+        "cursor": "#d7d6df"
+    },
+    "colors": {
+        "color0": "#0f1018",
+        "color1": "#857B8A",
+        "color2": "#7D8298",
+        "color3": "#8E92AB",
+        "color4": "#9092A7",
+        "color5": "#9DA5C2",
+        "color6": "#B0B2CC",
+        "color7": "#d7d6df",
+        "color8": "#96959c",
+        "color9": "#857B8A",
+        "color10": "#7D8298",
+        "color11": "#8E92AB",
+        "color12": "#9092A7",
+        "color13": "#9DA5C2",
+        "color14": "#B0B2CC",
+        "color15": "#d7d6df"
+    }
+}

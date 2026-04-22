@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/IMG_20251205_130256_855.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101517",
+        "foreground": "#e7e4e2",
+        "cursor": "#e7e4e2"
+    },
+    "colors": {
+        "color0": "#101517",
+        "color1": "#65857D",
+        "color2": "#B88A77",
+        "color3": "#AF958A",
+        "color4": "#B0A7A2",
+        "color5": "#CAB1A5",
+        "color6": "#D0C6BB",
+        "color7": "#e7e4e2",
+        "color8": "#a19f9e",
+        "color9": "#65857D",
+        "color10": "#B88A77",
+        "color11": "#AF958A",
+        "color12": "#B0A7A2",
+        "color13": "#CAB1A5",
+        "color14": "#D0C6BB",
+        "color15": "#e7e4e2"
+    }
+}

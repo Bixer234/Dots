@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/bixer/wallpapers/Sculpture.png"
+let background = "#121212"
+let foreground = "#cac4bb"
+let cursor     = "#cac4bb"
+
+" Colors
+let color0  = "#121212"
+let color1  = "#645B4E"
+let color2  = "#756755"
+let color3  = "#85725A"
+let color4  = "#897B67"
+let color5  = "#958773"
+let color6  = "#A4917A"
+let color7  = "#cac4bb"
+let color8  = "#8d8982"
+let color9  = "#645B4E"
+let color10 = "#756755"
+let color11 = "#85725A"
+let color12 = "#897B67"
+let color13 = "#958773"
+let color14 = "#A4917A"
+let color15 = "#cac4bb"

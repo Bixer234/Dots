@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/town.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A1511",
+        "foreground": "#a3aabf",
+        "cursor": "#a3aabf"
+    },
+    "colors": {
+        "color0": "#0A1511",
+        "color1": "#4D494C",
+        "color2": "#615B67",
+        "color3": "#965930",
+        "color4": "#B45D45",
+        "color5": "#EB6B5C",
+        "color6": "#DD8672",
+        "color7": "#a3aabf",
+        "color8": "#727685",
+        "color9": "#4D494C",
+        "color10": "#615B67",
+        "color11": "#965930",
+        "color12": "#B45D45",
+        "color13": "#EB6B5C",
+        "color14": "#DD8672",
+        "color15": "#a3aabf"
+    }
+}

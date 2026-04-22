@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/asian-village.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0f18",
+        "foreground": "#cdd1de",
+        "cursor": "#cdd1de"
+    },
+    "colors": {
+        "color0": "#0f0f18",
+        "color1": "#616479",
+        "color2": "#70748A",
+        "color3": "#877B8D",
+        "color4": "#7D8299",
+        "color5": "#9799AB",
+        "color6": "#C5CBB8",
+        "color7": "#cdd1de",
+        "color8": "#8f929b",
+        "color9": "#616479",
+        "color10": "#70748A",
+        "color11": "#877B8D",
+        "color12": "#7D8299",
+        "color13": "#9799AB",
+        "color14": "#C5CBB8",
+        "color15": "#cdd1de"
+    }
+}

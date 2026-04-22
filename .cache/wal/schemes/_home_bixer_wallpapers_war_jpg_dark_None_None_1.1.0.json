@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/war.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0c16",
+        "foreground": "#c3c6ca",
+        "cursor": "#c3c6ca"
+    },
+    "colors": {
+        "color0": "#0c0c16",
+        "color1": "#596678",
+        "color2": "#95787F",
+        "color3": "#5D6E82",
+        "color4": "#697887",
+        "color5": "#758593",
+        "color6": "#79ACD9",
+        "color7": "#c3c6ca",
+        "color8": "#888a8d",
+        "color9": "#596678",
+        "color10": "#95787F",
+        "color11": "#5D6E82",
+        "color12": "#697887",
+        "color13": "#758593",
+        "color14": "#79ACD9",
+        "color15": "#c3c6ca"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Street Corner.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1c1f",
+        "foreground": "#d4dadf",
+        "cursor": "#d4dadf"
+    },
+    "colors": {
+        "color0": "#1b1c1f",
+        "color1": "#268CB8",
+        "color2": "#6291A5",
+        "color3": "#369CC2",
+        "color4": "#5FA9C5",
+        "color5": "#9AA2A5",
+        "color6": "#B5BEBA",
+        "color7": "#d4dadf",
+        "color8": "#94989c",
+        "color9": "#268CB8",
+        "color10": "#6291A5",
+        "color11": "#369CC2",
+        "color12": "#5FA9C5",
+        "color13": "#9AA2A5",
+        "color14": "#B5BEBA",
+        "color15": "#d4dadf"
+    }
+}

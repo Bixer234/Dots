@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_purple_cube_with_a_black_circle_and_buttons.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#03080A",
+        "foreground": "#d3d6e1",
+        "cursor": "#d3d6e1"
+    },
+    "colors": {
+        "color0": "#03080A",
+        "color1": "#6462A8",
+        "color2": "#7152C5",
+        "color3": "#8673D0",
+        "color4": "#7983B6",
+        "color5": "#7E85C1",
+        "color6": "#A2A7CC",
+        "color7": "#d3d6e1",
+        "color8": "#93959d",
+        "color9": "#6462A8",
+        "color10": "#7152C5",
+        "color11": "#8673D0",
+        "color12": "#7983B6",
+        "color13": "#7E85C1",
+        "color14": "#A2A7CC",
+        "color15": "#d3d6e1"
+    }
+}

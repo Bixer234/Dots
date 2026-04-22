@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_dark_alleyway_with_a_brick_building_and_a_window.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151412",
+        "foreground": "#d7bba6",
+        "cursor": "#d7bba6"
+    },
+    "colors": {
+        "color0": "#151412",
+        "color1": "#514E48",
+        "color2": "#6B6359",
+        "color3": "#90603A",
+        "color4": "#8F6D53",
+        "color5": "#B07549",
+        "color6": "#C5784C",
+        "color7": "#d7bba6",
+        "color8": "#968274",
+        "color9": "#514E48",
+        "color10": "#6B6359",
+        "color11": "#90603A",
+        "color12": "#8F6D53",
+        "color13": "#B07549",
+        "color14": "#C5784C",
+        "color15": "#d7bba6"
+    }
+}

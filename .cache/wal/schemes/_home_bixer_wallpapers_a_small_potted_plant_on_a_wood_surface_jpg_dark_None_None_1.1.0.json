@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_small_potted_plant_on_a_wood_surface.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090a07",
+        "foreground": "#b8b8b6",
+        "cursor": "#b8b8b6"
+    },
+    "colors": {
+        "color0": "#090a07",
+        "color1": "#514736",
+        "color2": "#625E51",
+        "color3": "#797873",
+        "color4": "#846C5A",
+        "color5": "#817F7A",
+        "color6": "#7F8079",
+        "color7": "#b8b8b6",
+        "color8": "#80807f",
+        "color9": "#514736",
+        "color10": "#625E51",
+        "color11": "#797873",
+        "color12": "#846C5A",
+        "color13": "#817F7A",
+        "color14": "#7F8079",
+        "color15": "#b8b8b6"
+    }
+}

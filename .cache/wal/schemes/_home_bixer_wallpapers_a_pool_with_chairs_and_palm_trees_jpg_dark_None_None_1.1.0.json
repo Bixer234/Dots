@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_pool_with_chairs_and_palm_trees.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#111715",
+        "foreground": "#c0cccf",
+        "cursor": "#c0cccf"
+    },
+    "colors": {
+        "color0": "#111715",
+        "color1": "#357290",
+        "color2": "#457993",
+        "color3": "#378B99",
+        "color4": "#5894A0",
+        "color5": "#47A9AB",
+        "color6": "#75BAC7",
+        "color7": "#c0cccf",
+        "color8": "#868e90",
+        "color9": "#357290",
+        "color10": "#457993",
+        "color11": "#378B99",
+        "color12": "#5894A0",
+        "color13": "#47A9AB",
+        "color14": "#75BAC7",
+        "color15": "#c0cccf"
+    }
+}

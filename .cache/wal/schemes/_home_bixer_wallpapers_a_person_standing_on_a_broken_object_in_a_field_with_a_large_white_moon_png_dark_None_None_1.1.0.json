@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_person_standing_on_a_broken_object_in_a_field_with_a_large_white_moon.png",
+    "alpha": "100",
+    "special": {
+        "background": "#161006",
+        "foreground": "#e5e0d6",
+        "cursor": "#e5e0d6"
+    },
+    "colors": {
+        "color0": "#161006",
+        "color1": "#927764",
+        "color2": "#3F6D80",
+        "color3": "#567683",
+        "color4": "#72878E",
+        "color5": "#9FA7A2",
+        "color6": "#D2CBBA",
+        "color7": "#e5e0d6",
+        "color8": "#a09c95",
+        "color9": "#927764",
+        "color10": "#3F6D80",
+        "color11": "#567683",
+        "color12": "#72878E",
+        "color13": "#9FA7A2",
+        "color14": "#D2CBBA",
+        "color15": "#e5e0d6"
+    }
+}

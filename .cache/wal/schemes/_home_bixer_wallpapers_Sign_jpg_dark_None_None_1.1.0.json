@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Sign.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D1112",
+        "foreground": "#acc9ca",
+        "cursor": "#acc9ca"
+    },
+    "colors": {
+        "color0": "#0D1112",
+        "color1": "#C81D27",
+        "color2": "#98837C",
+        "color3": "#3E7A80",
+        "color4": "#467C83",
+        "color5": "#508D92",
+        "color6": "#5596A3",
+        "color7": "#acc9ca",
+        "color8": "#788c8d",
+        "color9": "#C81D27",
+        "color10": "#98837C",
+        "color11": "#3E7A80",
+        "color12": "#467C83",
+        "color13": "#508D92",
+        "color14": "#5596A3",
+        "color15": "#acc9ca"
+    }
+}

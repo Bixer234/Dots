@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/migrating-from-linux-mint-to-cachyos-v0-i0zvazjjjxng1.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0b0c",
+        "foreground": "#dee0e2",
+        "cursor": "#dee0e2"
+    },
+    "colors": {
+        "color0": "#0a0b0c",
+        "color1": "#1A404D",
+        "color2": "#3E4044",
+        "color3": "#494B4F",
+        "color4": "#616367",
+        "color5": "#86937F",
+        "color6": "#A7AAAC",
+        "color7": "#dee0e2",
+        "color8": "#9b9c9e",
+        "color9": "#1A404D",
+        "color10": "#3E4044",
+        "color11": "#494B4F",
+        "color12": "#616367",
+        "color13": "#86937F",
+        "color14": "#A7AAAC",
+        "color15": "#dee0e2"
+    }
+}

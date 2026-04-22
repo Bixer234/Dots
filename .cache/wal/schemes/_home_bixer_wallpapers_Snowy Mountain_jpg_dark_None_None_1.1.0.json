@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Snowy Mountain.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1118",
+        "foreground": "#d1dadc",
+        "cursor": "#d1dadc"
+    },
+    "colors": {
+        "color0": "#0f1118",
+        "color1": "#658F9E",
+        "color2": "#7197A6",
+        "color3": "#95ACB5",
+        "color4": "#91AEB8",
+        "color5": "#A2BBC2",
+        "color6": "#9CC1C6",
+        "color7": "#d1dadc",
+        "color8": "#92989a",
+        "color9": "#658F9E",
+        "color10": "#7197A6",
+        "color11": "#95ACB5",
+        "color12": "#91AEB8",
+        "color13": "#A2BBC2",
+        "color14": "#9CC1C6",
+        "color15": "#d1dadc"
+    }
+}

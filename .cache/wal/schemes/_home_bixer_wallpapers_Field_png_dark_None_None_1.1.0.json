@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Field.png",
+    "alpha": "100",
+    "special": {
+        "background": "#131a16",
+        "foreground": "#e3e9da",
+        "cursor": "#e3e9da"
+    },
+    "colors": {
+        "color0": "#131a16",
+        "color1": "#70886C",
+        "color2": "#8AA360",
+        "color3": "#326682",
+        "color4": "#50778A",
+        "color5": "#709092",
+        "color6": "#B3C5AE",
+        "color7": "#e3e9da",
+        "color8": "#9ea398",
+        "color9": "#70886C",
+        "color10": "#8AA360",
+        "color11": "#326682",
+        "color12": "#50778A",
+        "color13": "#709092",
+        "color14": "#B3C5AE",
+        "color15": "#e3e9da"
+    }
+}

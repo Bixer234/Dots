@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Tokyo.png",
+    "alpha": "100",
+    "special": {
+        "background": "#121010",
+        "foreground": "#f0eae6",
+        "cursor": "#f0eae6"
+    },
+    "colors": {
+        "color0": "#121010",
+        "color1": "#A69E99",
+        "color2": "#C8BEB8",
+        "color3": "#F6A4A9",
+        "color4": "#CCC2BC",
+        "color5": "#F4BFC0",
+        "color6": "#E6D3CD",
+        "color7": "#f0eae6",
+        "color8": "#a8a3a1",
+        "color9": "#A69E99",
+        "color10": "#C8BEB8",
+        "color11": "#F6A4A9",
+        "color12": "#CCC2BC",
+        "color13": "#F4BFC0",
+        "color14": "#E6D3CD",
+        "color15": "#f0eae6"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/waterfall.gif",
+    "alpha": "100",
+    "special": {
+        "background": "#021219",
+        "foreground": "#d4dbd6",
+        "cursor": "#d4dbd6"
+    },
+    "colors": {
+        "color0": "#021219",
+        "color1": "#536A6B",
+        "color2": "#6A8679",
+        "color3": "#878F7B",
+        "color4": "#5E7683",
+        "color5": "#738A8C",
+        "color6": "#92A59C",
+        "color7": "#d4dbd6",
+        "color8": "#949995",
+        "color9": "#536A6B",
+        "color10": "#6A8679",
+        "color11": "#878F7B",
+        "color12": "#5E7683",
+        "color13": "#738A8C",
+        "color14": "#92A59C",
+        "color15": "#d4dbd6"
+    }
+}

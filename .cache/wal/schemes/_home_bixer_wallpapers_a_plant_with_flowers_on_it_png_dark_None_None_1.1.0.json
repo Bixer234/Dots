@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_plant_with_flowers_on_it.png",
+    "alpha": "100",
+    "special": {
+        "background": "#402a26",
+        "foreground": "#e5cde6",
+        "cursor": "#e5cde6"
+    },
+    "colors": {
+        "color0": "#402a26",
+        "color1": "#7CB083",
+        "color2": "#AEA091",
+        "color3": "#B5A2B1",
+        "color4": "#CCA4AC",
+        "color5": "#DCD8B2",
+        "color6": "#E5DFBB",
+        "color7": "#e5cde6",
+        "color8": "#a08fa1",
+        "color9": "#7CB083",
+        "color10": "#AEA091",
+        "color11": "#B5A2B1",
+        "color12": "#CCA4AC",
+        "color13": "#DCD8B2",
+        "color14": "#E5DFBB",
+        "color15": "#e5cde6"
+    }
+}

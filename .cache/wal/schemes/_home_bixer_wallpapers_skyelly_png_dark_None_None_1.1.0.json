@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/skyelly.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0d0a",
+        "foreground": "#dfac82",
+        "cursor": "#dfac82"
+    },
+    "colors": {
+        "color0": "#0c0d0a",
+        "color1": "#533A22",
+        "color2": "#3E4223",
+        "color3": "#734620",
+        "color4": "#863D0C",
+        "color5": "#8F4A15",
+        "color6": "#A2581B",
+        "color7": "#dfac82",
+        "color8": "#9c785b",
+        "color9": "#533A22",
+        "color10": "#3E4223",
+        "color11": "#734620",
+        "color12": "#863D0C",
+        "color13": "#8F4A15",
+        "color14": "#A2581B",
+        "color15": "#dfac82"
+    }
+}

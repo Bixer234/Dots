@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Space Nord.png",
+    "alpha": "100",
+    "special": {
+        "background": "#242129",
+        "foreground": "#c9c8ba",
+        "cursor": "#c9c8ba"
+    },
+    "colors": {
+        "color0": "#242129",
+        "color1": "#956566",
+        "color2": "#C4656C",
+        "color3": "#938C79",
+        "color4": "#B39379",
+        "color5": "#CD9B7A",
+        "color6": "#797E84",
+        "color7": "#c9c8ba",
+        "color8": "#8c8c82",
+        "color9": "#956566",
+        "color10": "#C4656C",
+        "color11": "#938C79",
+        "color12": "#B39379",
+        "color13": "#CD9B7A",
+        "color14": "#797E84",
+        "color15": "#c9c8ba"
+    }
+}

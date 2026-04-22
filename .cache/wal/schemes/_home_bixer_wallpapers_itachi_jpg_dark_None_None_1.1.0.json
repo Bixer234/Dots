@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/itachi.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#03031C",
+        "foreground": "#e5dfe2",
+        "cursor": "#e5dfe2"
+    },
+    "colors": {
+        "color0": "#03031C",
+        "color1": "#AD0C2C",
+        "color2": "#B51D42",
+        "color3": "#BA2D4E",
+        "color4": "#C04A66",
+        "color5": "#9F7487",
+        "color6": "#BAA2AD",
+        "color7": "#e5dfe2",
+        "color8": "#a09c9e",
+        "color9": "#AD0C2C",
+        "color10": "#B51D42",
+        "color11": "#BA2D4E",
+        "color12": "#C04A66",
+        "color13": "#9F7487",
+        "color14": "#BAA2AD",
+        "color15": "#e5dfe2"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/fireship.png",
+    "alpha": "100",
+    "special": {
+        "background": "#140e10",
+        "foreground": "#e5ca91",
+        "cursor": "#e5ca91"
+    },
+    "colors": {
+        "color0": "#140e10",
+        "color1": "#4C4D48",
+        "color2": "#675A53",
+        "color3": "#9E522D",
+        "color4": "#EA6D11",
+        "color5": "#975E4D",
+        "color6": "#6F956D",
+        "color7": "#e5ca91",
+        "color8": "#a08d65",
+        "color9": "#4C4D48",
+        "color10": "#675A53",
+        "color11": "#9E522D",
+        "color12": "#EA6D11",
+        "color13": "#975E4D",
+        "color14": "#6F956D",
+        "color15": "#e5ca91"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Sculpture.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#121212",
+        "foreground": "#cac4bb",
+        "cursor": "#cac4bb"
+    },
+    "colors": {
+        "color0": "#121212",
+        "color1": "#645B4E",
+        "color2": "#756755",
+        "color3": "#85725A",
+        "color4": "#897B67",
+        "color5": "#958773",
+        "color6": "#A4917A",
+        "color7": "#cac4bb",
+        "color8": "#8d8982",
+        "color9": "#645B4E",
+        "color10": "#756755",
+        "color11": "#85725A",
+        "color12": "#897B67",
+        "color13": "#958773",
+        "color14": "#A4917A",
+        "color15": "#cac4bb"
+    }
+}

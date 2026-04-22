@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Black Wolves.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#020202",
+        "foreground": "#f2e1e8",
+        "cursor": "#f2e1e8"
+    },
+    "colors": {
+        "color0": "#020202",
+        "color1": "#FA0555",
+        "color2": "#EF2367",
+        "color3": "#F46294",
+        "color4": "#A0A0A0",
+        "color5": "#F59FBE",
+        "color6": "#D0D0D0",
+        "color7": "#f2e1e8",
+        "color8": "#a99da2",
+        "color9": "#FA0555",
+        "color10": "#EF2367",
+        "color11": "#F46294",
+        "color12": "#A0A0A0",
+        "color13": "#F59FBE",
+        "color14": "#D0D0D0",
+        "color15": "#f2e1e8"
+    }
+}

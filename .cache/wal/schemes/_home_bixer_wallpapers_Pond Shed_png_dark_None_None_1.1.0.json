@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Pond Shed.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c1012",
+        "foreground": "#c2ccda",
+        "cursor": "#c2ccda"
+    },
+    "colors": {
+        "color0": "#0c1012",
+        "color1": "#344E48",
+        "color2": "#37684E",
+        "color3": "#4D6061",
+        "color4": "#5C8364",
+        "color5": "#64758B",
+        "color6": "#75899F",
+        "color7": "#c2ccda",
+        "color8": "#878e98",
+        "color9": "#344E48",
+        "color10": "#37684E",
+        "color11": "#4D6061",
+        "color12": "#5C8364",
+        "color13": "#64758B",
+        "color14": "#75899F",
+        "color15": "#c2ccda"
+    }
+}

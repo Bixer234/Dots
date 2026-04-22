@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/wallhaven-yq5pwd.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b1316",
+        "foreground": "#f2e2cb",
+        "cursor": "#f2e2cb"
+    },
+    "colors": {
+        "color0": "#0b1316",
+        "color1": "#AC9267",
+        "color2": "#338F88",
+        "color3": "#B3A491",
+        "color4": "#CEB394",
+        "color5": "#D6BCA4",
+        "color6": "#EDD3AA",
+        "color7": "#f2e2cb",
+        "color8": "#a99e8e",
+        "color9": "#AC9267",
+        "color10": "#338F88",
+        "color11": "#B3A491",
+        "color12": "#CEB394",
+        "color13": "#D6BCA4",
+        "color14": "#EDD3AA",
+        "color15": "#f2e2cb"
+    }
+}

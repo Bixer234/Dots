@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_room_with_a_large_window_and_a_piano_keyboard_and_a_large_fire.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#121113",
+        "foreground": "#c3c7c7",
+        "cursor": "#c3c7c7"
+    },
+    "colors": {
+        "color0": "#121113",
+        "color1": "#4F626A",
+        "color2": "#AD5F47",
+        "color3": "#E59A75",
+        "color4": "#5C7A84",
+        "color5": "#867E81",
+        "color6": "#6E8C94",
+        "color7": "#c3c7c7",
+        "color8": "#888b8b",
+        "color9": "#4F626A",
+        "color10": "#AD5F47",
+        "color11": "#E59A75",
+        "color12": "#5C7A84",
+        "color13": "#867E81",
+        "color14": "#6E8C94",
+        "color15": "#c3c7c7"
+    }
+}

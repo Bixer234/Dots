@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Cassette.png",
+    "alpha": "100",
+    "special": {
+        "background": "#10151c",
+        "foreground": "#cacacd",
+        "cursor": "#cacacd"
+    },
+    "colors": {
+        "color0": "#10151c",
+        "color1": "#5D626A",
+        "color2": "#6B6D74",
+        "color3": "#797B83",
+        "color4": "#817F84",
+        "color5": "#7D8188",
+        "color6": "#8B8D92",
+        "color7": "#cacacd",
+        "color8": "#8d8d8f",
+        "color9": "#5D626A",
+        "color10": "#6B6D74",
+        "color11": "#797B83",
+        "color12": "#817F84",
+        "color13": "#7D8188",
+        "color14": "#8B8D92",
+        "color15": "#cacacd"
+    }
+}
