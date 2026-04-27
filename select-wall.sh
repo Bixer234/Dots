@@ -5,90 +5,29 @@ WALLPAPER_DIR="$HOME/wallpapers"
 MONITOR="eDP-1"
 TRANSITIONS=("wipe" "grow")
 ANGLES=(30 210)
-MAP_FILE="/tmp/wallpaper_map.txt"
-
-# Clear/Initialize the map file
-: > "$MAP_FILE"
 
 # --- Functions ---
 get_wallpapers() {
-    # Added -L to follow symlinks if WALLPAPER_DIR is a link
-    find -L "$WALLPAPER_DIR" -maxdepth 1 -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" -o -iname "*.mp4" -o -iname "*.mkv" -o -iname "*.webm" \) -print0 | while IFS= read -r -d '' file; do
-        filename=$(basename "$file")
-        display_name="${filename%.*}"
-        
-        # Store mapping for retrieval later
-        echo "$display_name|$file" >> "$MAP_FILE"
-
-        # Rofi formatting with icons
-        if [[ "$filename" =~ \.(mp4|mkv|webm)$ ]]; then
-            echo -en "$display_name\0icon\x1fthumbnail://${file}\n"
-        else
-            echo -en "$display_name\0icon\x1f${file}\n"
-        fi
-    done
+    find -L "$WALLPAPER_DIR" -maxdepth 1 -type f \
+        \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \
+           -o -iname "*.gif" -o -iname "*.mp4" -o -iname "*.mkv" -o -iname "*.webm" \) \
+        | sort
 }
 
 # --- Main Logic ---
-# Pipe the function output into Rofi
-choice=$(get_wallpapers | rofi -dmenu \
-    -theme ~/.config/rofi/launchers/type-1/style-3.rasi \
-    -p "Select Wallpaper" \
-    -theme-str '
-        inputbar {
-            font: "Google Sans Flex 12";
-        }
-        prompt {
-            font: "Google Sans Flex 12";
-        }
-        entry {
-            font: "Google Sans Flex 12";
-            placeholder: "Search...";
-            placeholder-color: @fg;
-        }
-        window { 
-            width: 900px; 
-            height: 500px; 
-            border-radius: 20px;
-        }
-        listview { 
-            columns: 3; 
-            lines: 1;
-            spacing: 25px; 
-            cycle: true;
-            dynamic: true;
-            layout: vertical;
-            fixed-columns: true;
-        }
-        element { 
-            orientation: vertical; 
-            padding: 30px 15px; 
-            border-radius: 20px;
-        }
-        element-icon { 
-            size: 180px; 
-            horizontal-align: 0.5;
-            vertical-align: 0.5;
-            border-radius: 15px;
-        }
-        element-text { 
-            font: "Google Sans Flex 12";
-            horizontal-align: 0.5; 
-            vertical-align: 0.5; 
-            margin: 10px 0px 0px 0px; 
-        }
-    ' \
-    -i)
+WALLPAPER_PATH=$(get_wallpapers | vicinae dmenu \
+    -n "Wallpapers" \
+    -p "Search wallpapers..." \
+    -s "Available ({count})")
 
-# Exit if no selection was made (Esc pressed)
-[[ -z "$choice" ]] && exit 0
+# Exit if no selection was made
+[[ -z "$WALLPAPER_PATH" ]] && exit 0
 
-# Retrieve the full path from our map file
-WALLPAPER_PATH=$(grep "^$choice|" "$MAP_FILE" | cut -d'|' -f2)
 EXTENSION="${WALLPAPER_PATH##*.}"
+CHOICE=$(basename "${WALLPAPER_PATH%.*}")
 
 if [[ ! -f "$WALLPAPER_PATH" ]]; then
-    notify-send "Error" "Could not find file for: $choice"
+    notify-send "Error" "Could not find file: $WALLPAPER_PATH"
     exit 1
 fi
 
@@ -100,7 +39,7 @@ if [[ "$EXTENSION" =~ ^(mp4|mkv|webm)$ ]]; then
 else
     pkill mpvpaper
     if ! pgrep -x "awww-daemon" > /dev/null; then
-        awww-daemon & 
+        awww-daemon &
         sleep 0.5
     fi
 
@@ -119,13 +58,11 @@ fi
 # --- Color Extraction & Theming ---
 if [[ ! "$EXTENSION" =~ ^(mp4|mkv|webm)$ ]]; then
     if command -v matugen > /dev/null; then
-        # Use ImageMagick to get a seed color
         COLOR_SEED=$(magick "$WALLPAPER_PATH" -resize 1x1 txt:- | grep -oE '#[0-9a-fA-F]{6}' | head -n 1)
         matugen color hex "$COLOR_SEED" -m dark -t scheme-content
     fi
     wal -n -q -i "$WALLPAPER_PATH"
 else
-    # Fallback for video wallpapers
     if command -v matugen > /dev/null; then
         matugen color hex "#3584e4" -m dark -t scheme-content
     fi
@@ -135,7 +72,7 @@ fi
 # --- Squeekboard Refresh ---
 if pgrep -x "squeekboard" > /dev/null; then
     pkill squeekboard
-    squeekboard & 
+    squeekboard &
 fi
 
 # --- Waybar & UI Refresh ---
@@ -151,7 +88,6 @@ fi
 pkill waybar
 while pgrep -u $USER -x waybar >/dev/null; do sleep 0.1; done
 
-# Optional browser theming
 [[ -x $(command -v pywalfox) ]] && pywalfox update &
 
 if pgrep -x "swaync" > /dev/null; then
@@ -159,10 +95,8 @@ if pgrep -x "swaync" > /dev/null; then
     swaync-client -rs
 fi
 
-vicinae vicinae://set-theme?id=pywal
-# Restart waybar in a new session to avoid hanging the terminal
 setsid waybar -c "$CURRENT_CONF" -s "$CURRENT_STYLE" >/dev/null 2>&1 &
 
-notify-send -t 2000 "Theme Synced" "Colors & UI updated for: $choice"
+notify-send -t 2000 "Theme Synced" "Colors & UI updated for: $CHOICE"
 
 exit 0

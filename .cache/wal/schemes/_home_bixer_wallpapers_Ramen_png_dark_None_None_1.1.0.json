@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Ramen.png",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#b1b1b1",
+        "cursor": "#b1b1b1"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#333333",
+        "color2": "#3B3B3B",
+        "color3": "#454545",
+        "color4": "#4B4B4B",
+        "color5": "#575757",
+        "color6": "#656565",
+        "color7": "#b1b1b1",
+        "color8": "#7b7b7b",
+        "color9": "#333333",
+        "color10": "#3B3B3B",
+        "color11": "#454545",
+        "color12": "#4B4B4B",
+        "color13": "#575757",
+        "color14": "#656565",
+        "color15": "#b1b1b1"
+    }
+}

@@ -5,5 +5,21 @@
     "last_checked_timestamp": 0,
     "middle_click_action": "none"
   },
-  "tasks": []
+  "tasks": [
+    {
+      "priority": 1,
+      "status": 0,
+      "description": "Prepare History (Sec 1)"
+    },
+    {
+      "priority": 2,
+      "status": 1,
+      "description": "Prepare Islamiat"
+    },
+    {
+      "priority": 3,
+      "status": 1,
+      "description": "Fix cobbleston farm"
+    }
+  ]
 }
