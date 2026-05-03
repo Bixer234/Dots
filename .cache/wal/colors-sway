@@ -1,21 +1,21 @@
-set $wallpaper /home/bixer/wallpapers/Mountain.png
+set $wallpaper /home/bixer/wallpapers/Space Nord.png
 
-set $background #0d0d0d
-set $foreground #c1caca
+set $background #242129
+set $foreground #c9c8ba
 
-set $color0 #0d0d0d
-set $color1 #687576
-set $color2 #75817E
-set $color3 #6B7E81
-set $color4 #77898B
-set $color5 #869896
-set $color6 #90A19F
-set $color7 #c1caca
-set $color8 #878d8d
-set $color9 #687576
-set $color10 #75817E
-set $color11 #6B7E81
-set $color12 #77898B
-set $color13 #869896
-set $color14 #90A19F
-set $color15 #c1caca
+set $color0 #242129
+set $color1 #956566
+set $color2 #C4656C
+set $color3 #938C79
+set $color4 #B39379
+set $color5 #CD9B7A
+set $color6 #797E84
+set $color7 #c9c8ba
+set $color8 #8c8c82
+set $color9 #956566
+set $color10 #C4656C
+set $color11 #938C79
+set $color12 #B39379
+set $color13 #CD9B7A
+set $color14 #797E84
+set $color15 #c9c8ba

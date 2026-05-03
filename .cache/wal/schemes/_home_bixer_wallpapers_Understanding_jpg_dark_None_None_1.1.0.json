@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Understanding.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#f3f3f3",
+        "cursor": "#f3f3f3"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#707070",
+        "color2": "#8F8F8F",
+        "color3": "#B0B0B0",
+        "color4": "#CECECE",
+        "color5": "#E7E7E7",
+        "color6": "#F3F3F3",
+        "color7": "#f3f3f3",
+        "color8": "#aaaaaa",
+        "color9": "#707070",
+        "color10": "#8F8F8F",
+        "color11": "#B0B0B0",
+        "color12": "#CECECE",
+        "color13": "#E7E7E7",
+        "color14": "#F3F3F3",
+        "color15": "#f3f3f3"
+    }
+}

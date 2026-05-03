@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Unemployed.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#e2e2e2",
+        "cursor": "#e2e2e2"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#585858",
+        "color2": "#707070",
+        "color3": "#888888",
+        "color4": "#979797",
+        "color5": "#AEAEAE",
+        "color6": "#C7C7C7",
+        "color7": "#e2e2e2",
+        "color8": "#9e9e9e",
+        "color9": "#585858",
+        "color10": "#707070",
+        "color11": "#888888",
+        "color12": "#979797",
+        "color13": "#AEAEAE",
+        "color14": "#C7C7C7",
+        "color15": "#e2e2e2"
+    }
+}
