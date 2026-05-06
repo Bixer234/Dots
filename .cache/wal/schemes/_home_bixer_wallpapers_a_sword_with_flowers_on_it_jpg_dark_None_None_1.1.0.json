@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/a_sword_with_flowers_on_it.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#21181f",
+        "foreground": "#ece3e2",
+        "cursor": "#ece3e2"
+    },
+    "colors": {
+        "color0": "#21181f",
+        "color1": "#AF9597",
+        "color2": "#D7A5A7",
+        "color3": "#D4AFB2",
+        "color4": "#E0C5B6",
+        "color5": "#E4B9C6",
+        "color6": "#FECDCE",
+        "color7": "#ece3e2",
+        "color8": "#a59e9e",
+        "color9": "#AF9597",
+        "color10": "#D7A5A7",
+        "color11": "#D4AFB2",
+        "color12": "#E0C5B6",
+        "color13": "#E4B9C6",
+        "color14": "#FECDCE",
+        "color15": "#ece3e2"
+    }
+}

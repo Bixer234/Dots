@@ -15,5 +15,6 @@ killall -q -9 waybar
 
 while pgrep -u $USER -x waybar >/dev/null; do sleep 0.1; done
 setsid waybar -c "$CURRENT_CONF" -s "$CURRENT_STYLE" >/dev/null 2>&1 &
+hyprctl reload
 
-notify-send -t 1000 "Waybar" "Refreshed current layout"
+notify-send -t 1000 "Reloaded" "Reloaded the system and waybar"

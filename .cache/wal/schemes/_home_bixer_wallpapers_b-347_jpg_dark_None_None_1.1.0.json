@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/b-347.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0d0a",
+        "foreground": "#d2e9f0",
+        "cursor": "#d2e9f0"
+    },
+    "colors": {
+        "color0": "#0b0d0a",
+        "color1": "#C25B63",
+        "color2": "#9D995D",
+        "color3": "#A3806B",
+        "color4": "#C2B660",
+        "color5": "#B9B2A0",
+        "color6": "#DAA3A4",
+        "color7": "#d2e9f0",
+        "color8": "#93a3a8",
+        "color9": "#C25B63",
+        "color10": "#9D995D",
+        "color11": "#A3806B",
+        "color12": "#C2B660",
+        "color13": "#B9B2A0",
+        "color14": "#DAA3A4",
+        "color15": "#d2e9f0"
+    }
+}

@@ -1,21 +1,21 @@
-set $wallpaper /home/bixer/wallpapers/Space Nord.png
+set $wallpaper /home/bixer/wallpapers/Castle.png
 
-set $background #242129
-set $foreground #c9c8ba
+set $background #0f0f18
+set $foreground #e8e2dc
 
-set $color0 #242129
-set $color1 #956566
-set $color2 #C4656C
-set $color3 #938C79
-set $color4 #B39379
-set $color5 #CD9B7A
-set $color6 #797E84
-set $color7 #c9c8ba
-set $color8 #8c8c82
-set $color9 #956566
-set $color10 #C4656C
-set $color11 #938C79
-set $color12 #B39379
-set $color13 #CD9B7A
-set $color14 #797E84
-set $color15 #c9c8ba
+set $color0 #0f0f18
+set $color1 #7E8197
+set $color2 #9D9AAA
+set $color3 #C2B8BD
+set $color4 #D3D1BB
+set $color5 #C2BBC2
+set $color6 #D4D3CC
+set $color7 #e8e2dc
+set $color8 #a29e9a
+set $color9 #7E8197
+set $color10 #9D9AAA
+set $color11 #C2B8BD
+set $color12 #D3D1BB
+set $color13 #C2BBC2
+set $color14 #D4D3CC
+set $color15 #e8e2dc

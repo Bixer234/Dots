@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/cat_leaves.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0c12",
+        "foreground": "#99a0af",
+        "cursor": "#99a0af"
+    },
+    "colors": {
+        "color0": "#0c0c12",
+        "color1": "#3F4060",
+        "color2": "#3D4D64",
+        "color3": "#40475F",
+        "color4": "#424867",
+        "color5": "#43506D",
+        "color6": "#43516E",
+        "color7": "#99a0af",
+        "color8": "#6b707a",
+        "color9": "#3F4060",
+        "color10": "#3D4D64",
+        "color11": "#40475F",
+        "color12": "#424867",
+        "color13": "#43506D",
+        "color14": "#43516E",
+        "color15": "#99a0af"
+    }
+}

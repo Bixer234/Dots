@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/bsod.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0B0C1A",
+        "foreground": "#d8d4d6",
+        "cursor": "#d8d4d6"
+    },
+    "colors": {
+        "color0": "#0B0C1A",
+        "color1": "#6D6B76",
+        "color2": "#817A7F",
+        "color3": "#7A7885",
+        "color4": "#827E86",
+        "color5": "#948F97",
+        "color6": "#B3ADB1",
+        "color7": "#d8d4d6",
+        "color8": "#979495",
+        "color9": "#6D6B76",
+        "color10": "#817A7F",
+        "color11": "#7A7885",
+        "color12": "#827E86",
+        "color13": "#948F97",
+        "color14": "#B3ADB1",
+        "color15": "#d8d4d6"
+    }
+}

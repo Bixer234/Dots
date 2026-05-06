@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/Train Crossing.png",
+    "alpha": "100",
+    "special": {
+        "background": "#252427",
+        "foreground": "#c3d1d5",
+        "cursor": "#c3d1d5"
+    },
+    "colors": {
+        "color0": "#252427",
+        "color1": "#3F6783",
+        "color2": "#52748D",
+        "color3": "#607C98",
+        "color4": "#64879D",
+        "color5": "#6F91AD",
+        "color6": "#739AC4",
+        "color7": "#c3d1d5",
+        "color8": "#889295",
+        "color9": "#3F6783",
+        "color10": "#52748D",
+        "color11": "#607C98",
+        "color12": "#64879D",
+        "color13": "#6F91AD",
+        "color14": "#739AC4",
+        "color15": "#c3d1d5"
+    }
+}
