@@ -1,8 +1,8 @@
-#!/bin/bash
+j#!/bin/bash
 
 # --- Configuration ---
 WALLPAPER_DIR="$HOME/wallpapers"
-MONITOR="eDP-1"
+MONITOR=""
 TRANSITIONS=("wipe" "grow")
 ANGLES=(30 210)
 MAP_FILE="/tmp/wallpaper_map.txt"

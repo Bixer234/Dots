@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/bixer/wallpapers/naruto.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#191e19",
+        "foreground": "#aec3b9",
+        "cursor": "#aec3b9"
+    },
+    "colors": {
+        "color0": "#191e19",
+        "color1": "#9E6337",
+        "color2": "#9A744E",
+        "color3": "#648873",
+        "color4": "#A78F68",
+        "color5": "#D6AC6E",
+        "color6": "#E4B56F",
+        "color7": "#aec3b9",
+        "color8": "#798881",
+        "color9": "#9E6337",
+        "color10": "#9A744E",
+        "color11": "#648873",
+        "color12": "#A78F68",
+        "color13": "#D6AC6E",
+        "color14": "#E4B56F",
+        "color15": "#aec3b9"
+    }
+}

@@ -9,15 +9,20 @@
     {
       "priority": 1,
       "status": 1,
-      "description": "Prepare History (Sec 1)"
+      "description": "Make name tags"
     },
     {
       "priority": 2,
       "status": 1,
-      "description": "Prepare Islamiat"
+      "description": "Prepare History (Sec 1)"
     },
     {
       "priority": 3,
+      "status": 1,
+      "description": "Prepare Islamiat"
+    },
+    {
+      "priority": 4,
       "status": 1,
       "description": "Fix cobbleston farm"
     }
